@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>GEARZONE - Gaming Gear Store</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container": "#1e2025", "surface-container-lowest": "#0c0e13", "outline-variant": "#494454", "background": "#111318", "on-tertiary-fixed": "#400200", "surface-variant": "#33353a", "tertiary-container": "#ff563d", "primary": "#d0bcff", "on-tertiary-fixed-variant": "#910b00", "on-tertiary": "#670500", "surface-tint": "#d0bcff", "on-primary": "#3c0091", "primary-fixed": "#e9ddff", "secondary-fixed-dim": "#4cd7f6", "tertiary": "#ffb4a7", "surface-container-highest": "#33353a", "surface-container-high": "#282a2f", "surface-container-low": "#1a1b21", "on-secondary-fixed": "#001f26", "on-surface-variant": "#cbc3d7", "on-surface": "#e2e2e9", "primary-container": "#a078ff", "tertiary-fixed-dim": "#ffb4a7", "inverse-primary": "#6d3bd7", "on-error": "#690005", "on-primary-container": "#340080", "error-container": "#93000a", "on-tertiary-container": "#5a0400", "on-secondary-container": "#00424e", "primary-fixed-dim": "#d0bcff", "on-primary-fixed": "#23005c", "on-background": "#e2e2e9", "inverse-surface": "#e2e2e9", "surface-dim": "#111318", "on-secondary-fixed-variant": "#004e5c", "surface": "#111318", "on-secondary": "#003640", "on-error-container": "#ffdad6", "secondary-container": "#03b5d3", "inverse-on-surface": "#2e3036", "secondary-fixed": "#acedff", "on-primary-fixed-variant": "#5516be", "outline": "#958ea0", "tertiary-fixed": "#ffdad4", "error": "#ffb4ab", "surface-bright": "#37393f", "secondary": "#4cd7f6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "space-sm": "0.75rem", "margin": "3rem", "gutter-mobile": "1rem", "gutter": "1.5rem", "space-xxs": "0.25rem", "space-lg": "1.5rem", "space-md": "1rem", "space-xs": "0.5rem", "space-2xl": "4rem", "space-3xl": "6rem", "margin-mobile": "1.25rem" }, "fontFamily": { "headline-lg": [ "Geist" ], "headline-xl": [ "Geist" ], "label-md": [ "JetBrains Mono" ], "headline-sm": [ "Geist" ], "label-lg": [ "JetBrains Mono" ], "body-lg": [ "Geist" ], "display": [ "Geist" ], "body-md": [ "Geist" ], "body-sm": [ "Geist" ], "display-mobile": [ "Geist" ], "headline-md": [ "Geist" ], "headline-xl-mobile": [ "Geist" ], "label-sm": [ "JetBrains Mono" ] }, "fontSize": { "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "body-lg": [ "18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "display": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "body-md": [ "15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-sm": [ "13px", { "lineHeight": "20px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "display-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" } ] } } } };</script></head><body class="bg-surface-container-lowest font-body-md text-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary" data-page="checkout"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.6)]"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group" data-path="trang-chu" href="index.html"><img alt="Brand logo. - Primary color: #8b5cf6 - Font: geist - Mode: dark - Roundness: rounded-md" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WohQaY5-URt1NVa7YoAAfLqNvuYIttLTgwt84qXymMzoek4kWNID3Nz8MZ85c9sAV0h0VvEFhUMHnpyu1RhmSfwMMzv6GPrGufCojHeN3fsxVKOmMPJQayJhcsM2qMWBU0bLWaBz2zDJcqTJUKQDhsJifUGe8dxpkUzqElYEaGo7u4VlRHu-prlcKN5Z_TdwGfilQ7IEL5gn-RUIRJh9d3jgJUPbV0y2Sbm5uJS_hXkyPq-NcxM4fkUg"/><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface group-hover:text-primary transition-colors">GEARZONE</span></a><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="text-primary font-bold"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="trang-chu" href="index.html">Trang chủ</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="chuot" href="products.html?category=mouse">Chuột</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ban-phim" href="products.html?category=keyboard">Bàn phím</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="tai-nghe" href="products.html?category=headset">Tai nghe</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="so-sanh" href="compare.html">So sánh</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="blog" href="blog.html">Blog</a></nav></div><div class="flex items-center gap-space-md flex-1 max-w-lg justify-end"><div class="relative hidden md:block w-full max-w-xs"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span><input class="w-full h-10 pl-9 pr-3 rounded bg-surface-container text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:bg-surface-container-high transition-colors" placeholder="Tìm kiếm chuột, phím, tai nghe..." type="text"/></div><div class="flex items-center gap-space-xs"><a aria-label="Wishlist" class="relative w-10 h-10 rounded flex items-center justify-center bg-surface-container-low hover:bg-surface-container-high text-on-surface hover:text-on-surface transition-colors" data-path="danh-sach-yeu-thich" href="products.html?wishlist=1"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute -top-1 -right-1 px-1.5 min-w-[18px] h-[18px] rounded-full bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm flex items-center justify-center">3</span></a><a aria-label="Cart" class="relative w-10 h-10 rounded flex items-center justify-center bg-surface-container-low hover:bg-surface-container-high text-on-surface hover:text-on-surface transition-colors" data-path="thanh-toan" href="thanhtoan.html"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute -top-1 -right-1 px-1.5 min-w-[18px] h-[18px] rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm flex items-center justify-center font-bold">2</span></a><a aria-label="Account" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-space-xs text-on-primary hover:bg-primary-container transition-colors" data-path="tai-khoan" href="#"><span class="material-symbols-outlined text-[18px]">person</span></a></div></div></div></header><main class="w-full pt-20 bg-surface-container-lowest min-h-screen"><div class="flex flex-col w-full">
+<section class="max-w-[1440px] mx-auto w-full px-margin-mobile md:px-margin py-space-lg md:py-space-xl">
+<!-- Breadcrumb & Multi-step Tracker -->
+<div class="flex flex-col gap-space-md mb-space-xl">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-on-surface transition-colors flex items-center gap-1" data-path="trang-chu" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+          Trang chủ
+        </a>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<a class="hover:text-on-surface transition-colors" data-path="gio-hang" href="#">Giỏ hàng</a>
+<span class="material-symbols-outlined text-[14px] text-outline">chevron_right</span>
+<span class="text-primary font-bold">Thông tin giao hàng &amp; Thanh toán</span>
+</nav>
+<!-- Stepper Widget -->
+<div class="bg-surface-container rounded-xl p-space-md shadow-md">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md relative">
+<!-- Step 1 -->
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-label-sm text-label-sm font-bold shadow-sm">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Bước 1</span>
+<span class="font-body-md text-body-md text-on-surface font-semibold">Giỏ hàng đã duyệt</span>
+</div>
+</div>
+<!-- Step 2 (Active) -->
+<div class="flex items-center gap-space-sm bg-surface-container-high md:bg-transparent p-space-xs md:p-0 rounded-lg">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-sm text-label-sm font-bold shadow-sm ring-2 ring-primary">
+              2
+            </div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Bước 2 (Hiện tại)</span>
+<span class="font-body-md text-body-md text-primary font-bold">Thanh toán &amp; Giao nhận</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex items-center gap-space-sm opacity-50">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-label-sm text-label-sm">
+              3
+            </div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Bước 3</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Xác nhận đơn hàng</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main 2-Column Checkout Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- LEFT COLUMN (60% ~ 7 cols): Delivery details & Payment methods -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- SECTION 1: Customer & Delivery Address -->
+<div class="bg-surface-container rounded-xl p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded bg-primary-container/20 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">local_shipping</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">1. Thông tin giao hàng</h2>
+</div>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">shield</span> Bảo mật SSL 256-bit
+            </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md mt-space-xs">
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Họ và tên người nhận *</label>
+<div class="relative">
+<input class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors" placeholder="VD: Nguyễn Văn A" type="text" value="Nguyễn Hoàng Hải Long"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-secondary text-[18px]">verified</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Số điện thoại *</label>
+<div class="relative">
+<input class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors" placeholder="09xx xxx xxx" type="tel" value="0988 234 567"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline text-[18px]">phone_android</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Email nhận hoá đơn &amp; kích hoạt bảo hành điện tử *</label>
+<input class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors" placeholder="email@domain.com" type="email" value="hailong.esports@gmail.com"/>
+<span class="font-label-sm text-label-sm text-outline">Hóa đơn điện tử VAT và mã kích hoạt RMA Serial sẽ gửi về hòm thư này.</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tỉnh / Thành phố *</label>
+<div class="relative">
+<select class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none appearance-none cursor-pointer">
+<option selected="">Hà Nội</option>
+<option>TP. Hồ Chí Minh</option>
+<option>Đà Nẵng</option>
+<option>Cần Thơ</option>
+<option>Hải Phòng</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[18px]">arrow_drop_down</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Quận / Huyện *</label>
+<div class="relative">
+<select class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none appearance-none cursor-pointer">
+<option selected="">Quận Đống Đa</option>
+<option>Quận Ba Đình</option>
+<option>Quận Cầu Giấy</option>
+<option>Quận Thanh Xuân</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[18px]">arrow_drop_down</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Phường / Xã *</label>
+<div class="relative">
+<select class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none appearance-none cursor-pointer">
+<option selected="">Phường Trung Liệt</option>
+<option>Phường Láng Hạ</option>
+<option>Phường Quang Trung</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline pointer-events-none text-[18px]">arrow_drop_down</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Địa chỉ chi tiết (Số nhà, toà nhà, tên đường) *</label>
+<input class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors" placeholder="Địa chỉ chi tiết nhận hàng" type="text" value="Căn hộ 1204, Toà Park View, Số 52 Thái Hà"/>
+</div>
+<div class="flex flex-col gap-space-xxs">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase">Ghi chú giao hàng (Tuỳ chọn)</label>
+<input class="w-full h-11 px-space-sm bg-surface-container-low rounded text-on-surface font-body-md text-body-md focus:bg-surface-container-high focus:outline-none transition-colors placeholder:text-outline" placeholder="Ví dụ: Giao giờ hành chính, gọi trước khi đến..." type="text" value="Giao giờ hành chính. Gọi trước 15 phút. Gear giá trị cao xin hãy bọc chống sốc kỹ."/>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<label class="flex items-center gap-space-xs cursor-pointer select-none">
+<input checked="" class="w-4 h-4 rounded accent-primary-container bg-surface-container-low cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Lưu thông tin này vào sổ địa chỉ tài khoản cho lần mua tiếp theo</span>
+</label>
+<label class="flex items-center gap-space-xs cursor-pointer select-none">
+<input class="w-4 h-4 rounded accent-primary-container bg-surface-container-low cursor-pointer" id="vat-toggle" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Yêu cầu xuất hoá đơn giá trị gia tăng (VAT Doanh nghiệp)</span>
+</label>
+</div>
+</div>
+<!-- SECTION 2: Shipping Options -->
+<div class="bg-surface-container rounded-xl p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded bg-secondary-container/20 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">rocket_launch</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">2. Phương thức vận chuyển Pro-Gear</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md" id="shipping-group">
+<!-- Option 1: Express 2H -->
+<label class="relative flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container-high cursor-pointer transition-colors shipping-card active-card">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<input checked="" class="w-4 h-4 accent-primary" name="shipping_method" type="radio" value="express"/>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Hỏa Tốc 2H Nội Thành</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-secondary">Miễn phí</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant pl-6">
+                Nhận hàng trong vòng 2 giờ tại Hà Nội &amp; TP.HCM. Đóng gói hộp chống sốc 3 lớp chuyên dụng cho Gaming gear cao cấp.
+              </p>
+<div class="pl-6 flex items-center gap-space-xs font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[14px]">bolt</span> Cam kết giao trước 17:00 hôm nay
+              </div>
+</label>
+<!-- Option 2: Standard National -->
+<label class="relative flex flex-col gap-space-xs p-space-md rounded-xl bg-surface-container-low hover:bg-surface-container-high cursor-pointer transition-colors shipping-card">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<input class="w-4 h-4 accent-primary" name="shipping_method" type="radio" value="standard"/>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Tiêu Chuẩn Toàn Quốc</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-secondary">Miễn phí</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant pl-6">
+                Giao qua đối tác VNPost / GHN Express (1 - 2 ngày làm việc). Bảo hiểm 100% rủi ro móp hộp hoặc trầy xước.
+              </p>
+<div class="pl-6 flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">inventory_2</span> Phù hợp tất cả các tỉnh thành
+              </div>
+</label>
+</div>
+</div>
+<!-- SECTION 3: Payment Methods -->
+<div class="bg-surface-container rounded-xl p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded bg-tertiary-container/20 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">account_balance_wallet</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">3. Phương thức thanh toán</h2>
+</div>
+<span class="font-label-sm text-label-sm bg-tertiary-container/15 text-tertiary px-2 py-0.5 rounded font-mono">
+              GIẢM THÊM 50.000đ KHI DÙNG VIETQR
+            </span>
+</div>
+<!-- Payment Options Stack -->
+<div class="flex flex-col gap-space-sm" id="payment-options">
+<!-- OPTION 1: VietQR Napas 247 -->
+<div class="rounded-xl bg-surface-container-low overflow-hidden transition-colors payment-accordion active" data-method="vietqr">
+<label class="flex items-center justify-between p-space-md cursor-pointer select-none">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-4 h-4 accent-primary cursor-pointer" name="payment_choice" type="radio" value="vietqr"/>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">qr_code_scanner</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Chuyển khoản VietQR 24/7 (Khuyên dùng)</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-secondary bg-secondary/10 px-2 py-0.5 rounded">Tự động duyệt 10s</span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary/10 px-2 py-0.5 rounded font-bold">-50.000đ</span>
+</div>
+</label>
+<!-- Dynamic QR Panel Content -->
+<div class="p-space-md pt-0 flex flex-col md:flex-row gap-space-md items-center bg-surface-container-high/60 rounded-b-xl">
+<!-- QR Visual Placeholder SVG Simulation -->
+<div class="w-44 h-44 bg-surface-container-lowest p-2 rounded-lg flex flex-col items-center justify-center shadow-lg relative shrink-0">
+<div class="w-full h-full bg-surface-container flex flex-col items-center justify-center relative overflow-hidden rounded">
+<!-- Stylized SVG QR simulation -->
+<svg class="w-36 h-36 text-primary" fill="currentColor" viewbox="0 0 100 100">
+<!-- Position markers -->
+<rect fill="currentColor" height="26" rx="3" width="26" x="5" y="5"></rect>
+<rect fill="#1e2025" height="18" width="18" x="9" y="9"></rect>
+<rect fill="currentColor" height="10" width="10" x="13" y="13"></rect>
+<rect fill="currentColor" height="26" rx="3" width="26" x="69" y="5"></rect>
+<rect fill="#1e2025" height="18" width="18" x="73" y="9"></rect>
+<rect fill="currentColor" height="10" width="10" x="77" y="13"></rect>
+<rect fill="currentColor" height="26" rx="3" width="26" x="5" y="69"></rect>
+<rect fill="#1e2025" height="18" width="18" x="9" y="73"></rect>
+<rect fill="currentColor" height="10" width="10" x="13" y="77"></rect>
+<!-- Pattern dots -->
+<rect fill="currentColor" height="6" width="6" x="36" y="8"></rect>
+<rect fill="currentColor" height="6" width="8" x="46" y="8"></rect>
+<rect fill="currentColor" height="6" width="6" x="58" y="8"></rect>
+<rect fill="currentColor" height="6" width="8" x="36" y="18"></rect>
+<rect fill="currentColor" height="6" width="6" x="48" y="18"></rect>
+<rect fill="currentColor" height="6" width="6" x="58" y="18"></rect>
+<rect fill="currentColor" height="8" width="6" x="8" y="36"></rect>
+<rect fill="currentColor" height="6" width="6" x="8" y="48"></rect>
+<rect fill="currentColor" height="8" width="6" x="8" y="58"></rect>
+<rect fill="currentColor" height="8" width="8" x="18" y="36"></rect>
+<rect fill="currentColor" height="10" width="8" x="18" y="54"></rect>
+<!-- Center logo badge -->
+<rect fill="#0c0e13" height="24" rx="4" width="24" x="38" y="38"></rect>
+<circle cx="50" cy="50" fill="#4cd7f6" r="8"></circle>
+<!-- Random data bits -->
+<rect fill="currentColor" height="8" width="8" x="68" y="36"></rect>
+<rect fill="currentColor" height="6" width="6" x="80" y="36"></rect>
+<rect fill="currentColor" height="8" width="6" x="88" y="44"></rect>
+<rect fill="currentColor" height="14" width="8" x="68" y="48"></rect>
+<rect fill="currentColor" height="6" width="14" x="80" y="56"></rect>
+<rect fill="currentColor" height="8" width="8" x="36" y="68"></rect>
+<rect fill="currentColor" height="6" width="16" x="48" y="68"></rect>
+<rect fill="currentColor" height="6" width="18" x="36" y="80"></rect>
+<rect fill="currentColor" height="8" width="8" x="58" y="78"></rect>
+<rect fill="currentColor" height="24" width="6" x="70" y="68"></rect>
+<rect fill="currentColor" height="14" width="14" x="80" y="78"></rect>
+</svg>
+</div>
+<span class="font-label-sm text-label-sm text-outline mt-1 font-mono">Quét bằng App Ngân Hàng</span>
+</div>
+<!-- Account & Transfer Details -->
+<div class="flex flex-col gap-space-xs flex-1 w-full">
+<div class="flex items-center justify-between bg-surface-container p-space-xs rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ngân hàng thụ hưởng:</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold">Techcombank (Hà Nội)</span>
+</div>
+<div class="flex items-center justify-between bg-surface-container p-space-xs rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Số tài khoản:</span>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md font-mono text-secondary font-bold" id="acc-number">1903 8888 9999</span>
+<button class="font-label-sm text-label-sm bg-surface-container-highest px-2 py-0.5 rounded text-on-surface hover:text-primary transition-colors" onclick="navigator.clipboard.writeText('190388889999'); this.innerText='Đã copy!'">Copy</button>
+</div>
+</div>
+<div class="flex items-center justify-between bg-surface-container p-space-xs rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Chủ tài khoản:</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold uppercase">CTY TNHH GEARZONE VIETNAM</span>
+</div>
+<div class="flex items-center justify-between bg-surface-container p-space-xs rounded">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Nội dung chuyển khoản:</span>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md font-mono text-tertiary font-bold" id="transfer-code">GZ89247</span>
+<button class="font-label-sm text-label-sm bg-surface-container-highest px-2 py-0.5 rounded text-on-surface hover:text-primary transition-colors" onclick="navigator.clipboard.writeText('GZ89247'); this.innerText='Đã copy!'">Copy</button>
+</div>
+</div>
+<!-- Hold timer -->
+<div class="flex items-center gap-space-xs text-tertiary font-label-sm text-label-sm pt-1">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+<span>Hệ thống giữ hàng và áp dụng giá ưu đãi trong: </span>
+<span class="font-mono font-bold text-on-surface" id="countdown-clock">14:59</span>
+</div>
+</div>
+</div>
+</div>
+<!-- OPTION 2: Credit / Debit Card -->
+<div class="rounded-xl bg-surface-container-low overflow-hidden transition-colors payment-accordion" data-method="card">
+<label class="flex items-center justify-between p-space-md cursor-pointer select-none">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 accent-primary cursor-pointer" name="payment_choice" type="radio" value="card"/>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[22px]">credit_card</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Thẻ Quốc tế (Visa, MasterCard, JCB)</span>
+</div>
+</div>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm bg-surface-container-high px-2 py-0.5 rounded text-on-surface-variant font-mono">VISA</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high px-2 py-0.5 rounded text-on-surface-variant font-mono">MC</span>
+<span class="font-label-sm text-label-sm bg-surface-container-high px-2 py-0.5 rounded text-on-surface-variant font-mono">JCB</span>
+</div>
+</label>
+</div>
+<!-- OPTION 3: Installment 0% -->
+<div class="rounded-xl bg-surface-container-low overflow-hidden transition-colors payment-accordion" data-method="installment">
+<label class="flex items-center justify-between p-space-md cursor-pointer select-none">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 accent-primary cursor-pointer" name="payment_choice" type="radio" value="installment"/>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[22px]">percent</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Trả góp 0% Lãi suất (Thẻ tín dụng / Fundiin / Home PayLater)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary/10 px-2 py-0.5 rounded">Từ 1.168.000đ/tháng</span>
+</label>
+</div>
+<!-- OPTION 4: COD -->
+<div class="rounded-xl bg-surface-container-low overflow-hidden transition-colors payment-accordion" data-method="cod">
+<label class="flex items-center justify-between p-space-md cursor-pointer select-none">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 accent-primary cursor-pointer" name="payment_choice" type="radio" value="cod"/>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[22px]">payments</span>
+<span class="font-body-md text-body-md font-semibold text-on-surface">Thanh toán khi nhận hàng (COD)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Được đồng kiểm ngoại quan</span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN (40% ~ 5 cols): Order summary & Badges -->
+<div class="lg:col-span-5 flex flex-col gap-space-md sticky top-24">
+<!-- Order Summary Card -->
+<div class="bg-surface-container rounded-xl p-space-lg shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">shopping_cart</span>
+  Đơn hàng của bạn
+</h2>
+<span class="font-label-md text-label-md text-on-surface-variant font-mono bg-surface-container-high px-2 py-1 rounded" id="checkout-item-count">0 sản phẩm</span>
+</div>
+<div class="flex flex-col gap-space-sm" id="checkout-items"></div>
+<div id="checkout-empty" class="hidden rounded-lg border border-dashed border-outline/60 bg-surface-container-low p-space-md text-on-surface-variant">
+<p>Giỏ hàng đang trống.</p>
+<a class="text-primary hover:underline" href="products.html">Tiếp tục mua sắm</a>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-sm bg-surface-container-low p-space-md rounded-lg">
+<div class="flex justify-between items-center text-on-surface-variant font-body-sm text-body-sm">
+<span>Tạm tính:</span>
+<span class="font-mono text-on-surface" id="checkout-subtotal">0đ</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant font-body-sm text-body-sm">
+<span>Phí vận chuyển:</span>
+<span class="font-mono text-secondary" id="checkout-shipping">0đ</span>
+</div>
+<div class="pt-space-xs mt-space-xs flex justify-between items-baseline bg-surface-container p-space-xs rounded">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Tổng thanh toán</span>
+<span class="font-label-sm text-label-sm text-outline">Đã bao gồm VAT 10%</span>
+</div>
+<div class="text-right">
+<span class="font-headline-lg text-headline-lg font-mono text-primary font-bold" id="checkout-total">0đ</span>
+</div>
+</div>
+</div>
+<button id="checkout-submit" class="w-full py-space-md px-space-lg rounded-xl bg-primary-container hover:bg-inverse-primary text-on-primary font-headline-sm text-headline-sm font-bold shadow-lg transition-all transform active:scale-98 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-[24px]">lock</span>
+<span>Xác Nhận Đặt Hàng &amp; Thanh Toán</span>
+</button>
+<p class="font-label-sm text-label-sm text-outline text-center">
+Bằng việc đặt hàng, bạn đồng ý với <a class="text-primary hover:underline" data-path="chinh-sach-doi-tra" href="#">Chính sách mua hàng &amp; hoàn tiền</a> của GEARZONE.
+</p>
+</div>
+<!-- Trust Badges & Service Guarantee Accordion -->
+<div class="bg-surface-container rounded-xl p-space-md shadow-md flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+            Cam kết độc quyền từ GEARZONE
+          </span>
+<div class="grid grid-cols-1 gap-space-xs text-on-surface">
+<div class="flex items-start gap-space-xs p-space-xs bg-surface-container-low rounded">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">verified</span>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-semibold">100% Phân phối Chính hãng</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Đầy đủ tem niêm phong từ Razer VN, Synnex FPT, KTC Distribution.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-xs p-space-xs bg-surface-container-low rounded">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">published_with_changes</span>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-semibold">1 Đổi 1 Trong 30 Ngày</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lỗi phần cứng, click double, rão switch cơ, lỗi kết nối không dây đổi mới ngay lập tức.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-xs p-space-xs bg-surface-container-low rounded">
+<span class="material-symbols-outlined text-tertiary text-[18px] shrink-0 mt-0.5">package_2</span>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-semibold">Bọc Chống Va Đập 3 Lớp Chuyên Nghiệp</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cam kết vỏ hộp nguyên vẹn 100% dành cho người chơi thích sưu tầm box.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Script for Tab Switching & Countdowns -->
+<script>
+    (function() {
+      // Countdown Timer for holding stock (15 minutes)
+      let timeInSeconds = 15 * 60 - 1;
+      const clockElement = document.getElementById('countdown-clock');
+      
+      if (clockElement) {
+        setInterval(() => {
+          if (timeInSeconds <= 0) return;
+          timeInSeconds--;
+          const minutes = Math.floor(timeInSeconds / 60);
+          const seconds = timeInSeconds % 60;
+          clockElement.textContent = 
+            (minutes < 10 ? '0' : '') + minutes + ':' + 
+            (seconds < 10 ? '0' : '') + seconds;
+        }, 1000);
+      }
+
+      // Radio card selection interactivity
+      const paymentAccordions = document.querySelectorAll('.payment-accordion');
+      const paymentRadios = document.querySelectorAll('input[name="payment_choice"]');
+
+      paymentRadios.forEach(radio => {
+        radio.addEventListener('change', function() {
+          paymentAccordions.forEach(acc => {
+            if (acc.dataset.method === this.value) {
+              acc.classList.add('bg-surface-container-high');
+            } else {
+              acc.classList.remove('bg-surface-container-high');
+            }
+          });
+        });
+      });
+    })();
+  </script>
+  <script src="script.js"></script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-3xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #8b5cf6 - Font: geist - Mode: dark - Roundness: rounded-md" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WohQaY5-URt1NVa7YoAAfLqNvuYIttLTgwt84qXymMzoek4kWNID3Nz8MZ85c9sAV0h0VvEFhUMHnpyu1RhmSfwMMzv6GPrGufCojHeN3fsxVKOmMPJQayJhcsM2qMWBU0bLWaBz2zDJcqTJUKQDhsJifUGe8dxpkUzqElYEaGo7u4VlRHu-prlcKN5Z_TdwGfilQ7IEL5gn-RUIRJh9d3jgJUPbV0y2Sbm5uJS_hXkyPq-NcxM4fkUg"/><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface">GEARZONE</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Gear đúng game. Setup đúng chất.</p><div class="flex flex-col gap-space-xs mt-space-sm font-label-sm text-label-sm text-on-surface-variant"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span> HN: 48 Thái Hà, Đống Đa | 0988.123.456</span><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">location_on</span> TP.HCM: 240 Hoàng Văn Thụ, Tân Bình | 0909.987.654</span><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">support_agent</span> Hotline: 1900 8888 (08:30 - 21:30)</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Shop</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="chuot" href="#">Gaming Mouse</a><a class="hover:text-on-surface transition-colors" data-path="ban-phim" href="#">Mechanical Keyboard</a><a class="hover:text-on-surface transition-colors" data-path="tai-nghe" href="#">Gaming Headset</a><a class="hover:text-on-surface transition-colors" data-path="phu-kien" href="#">Accessories</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Khám phá &amp; Hướng dẫn</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="buying-guides" href="#">Buying Guides</a><a class="hover:text-on-surface transition-colors" data-path="faq" href="#">FAQ</a><a class="hover:text-on-surface transition-colors" data-path="so-sanh" href="#">So sánh</a><a class="hover:text-on-surface transition-colors" data-path="blog" href="#">Blog &amp; Đánh giá</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface">Hỗ trợ &amp; Chính sách</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="chinh-sach-bao-hanh" href="#">Chính sách bảo hành</a><a class="hover:text-on-surface transition-colors" data-path="chinh-sach-doi-tra" href="#">Chính sách đổi trả</a><a class="hover:text-on-surface transition-colors" data-path="thanh-toan" href="#">Giao hàng &amp; Thanh toán</a><a class="hover:text-on-surface transition-colors" data-path="kiem-tra-bao-hanh" href="#">Tra cứu bảo hành RMA</a></div></div></div><div class="mt-space-2xl pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm text-on-surface-variant"><p>© 2026 GEARZONE. All rights reserved.</p><p class="text-right">Precision Pro Hardware Ecosystem</p></div></div></footer></body></html>
