@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Sitemap GEARZONE — 5 trang công khai, host https://tumoazat.github.io/geoweb/ -->
+<!-- Sitemap GEARZONE — 5 trang công khai, host https://geoweb.vercel.app/ -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://tumoazat.github.io/geoweb/</loc>
+    <loc>https://geoweb.vercel.app/</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://tumoazat.github.io/geoweb/products.html</loc>
+    <loc>https://geoweb.vercel.app/products.html</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://tumoazat.github.io/geoweb/compare.html</loc>
+    <loc>https://geoweb.vercel.app/compare.html</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://tumoazat.github.io/geoweb/faq.html</loc>
+    <loc>https://geoweb.vercel.app/faq.html</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://tumoazat.github.io/geoweb/blog.html</loc>
+    <loc>https://geoweb.vercel.app/blog.html</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

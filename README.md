@@ -36,9 +36,6 @@ Không framework. Không build step. Không backend. Không database. Mở file 
 
 ```text
 geoweb/
-├── .github/
-│   └── workflows/
-│       └── deploy-pages.yml    # workflow deploy lên GitHub Pages
 ├── data/
 │   └── products.json           # 25 sản phẩm, 17 thương hiệu
 ├── images/
@@ -63,7 +60,7 @@ geoweb/
 
 Tổng cộng 25 ảnh WebP trong `images/` (9 mouse + 8 keyboard + 7 headset + 1 accessory).
 
-`tools/convert_images.py` là **script chạy một lần tại máy** (dùng Pillow) để chuyển ảnh gốc sang WebP — không cần chạy lại khi deploy. Cùng với `tools/verify.py`, `.contextia/`, `.codegraph/`, thư mục thiết kế `stitch_gearzone_gaming_gear_e_commerce/` và file `mieuta.md`, các file này **bị loại khỏi Pages artifact** bởi bước dọn dẹp trong workflow (xem [Deploy lên GitHub Pages](#deploy-lên-github-pages)).
+`tools/convert_images.py` là **script chạy một lần tại máy** (dùng Pillow) để chuyển ảnh gốc sang WebP — không cần chạy lại khi deploy. `.contextia/` và `.codegraph/` nằm trong `.gitignore` nên không lên Vercel. Riêng `tools/` được track nên Vercel phục vụ công khai; thêm `tools/` vào `.vercelignore` nếu không muốn vậy.
 
 ## Chạy local
 
@@ -83,15 +80,18 @@ npx serve .
 # sau đó mở địa chỉ mà serve in ra (mặc định http://localhost:3000)
 ```
 
-## Deploy lên GitHub Pages
+## Deploy lên Vercel
+
+Site là static thuần — không framework, không build step, không dependency — nên Vercel deploy thẳng từ repo và không cần `vercel.json`.
 
 1. Push code lên nhánh `main`.
-2. Vào repository **Settings → Pages**, đặt **Source** = `GitHub Actions`.
-3. Workflow `deploy-pages.yml` tự chạy mỗi lần push lên `main` (hoặc bấm **Run workflow** thủ công trong tab **Actions**). Sau khi xong, URL của site nằm ở output `page_url` của job `deploy`.
+2. Trên Vercel: **Add New → Project → Import Git Repository**, chọn repo này.
+3. Ở bước cấu hình: **Framework Preset** = `Other`, **Build Command** để trống, **Output Directory** = `.` (thư mục gốc).
+4. Từ đó mỗi lần push lên `main`, Vercel tự deploy lại. URL nằm ở **Project → Domains**.
 
 ### URL của site
 
-Host đã được đặt cố định là `https://tumoazat.github.io/geoweb/` — không còn placeholder. Giá trị này xuất hiện ở `canonical`, `og:url`, JSON-LD (`@id`, `url`, `logo`) trên các trang HTML, ở dòng `Sitemap:` trong `robots.txt` và ở mọi thẻ `<loc>` trong `sitemap.xml`.
+Host cố định là `https://geoweb.vercel.app/`. Giá trị này xuất hiện ở `canonical`, `og:url`, JSON-LD (`@id`, `url`) trên các trang HTML, ở dòng `Sitemap:` trong `robots.txt` và ở mọi thẻ `<loc>` trong `sitemap.xml`.
 
 Nếu đổi sang domain riêng, chạy một lần trong PowerShell tại thư mục gốc:
 
@@ -99,12 +99,12 @@ Nếu đổi sang domain riêng, chạy một lần trong PowerShell tại thư 
 Get-ChildItem -Recurse -File -Include *.html, *.txt, *.xml |
   ForEach-Object {
     (Get-Content $_.FullName -Raw) `
-      -replace 'https://tumoazat\.github\.io/geoweb/', 'https://domain-moi.example/' |
+      -replace 'geoweb\.vercel\.app', 'domain-moi.example' |
       Set-Content $_.FullName -NoNewline -Encoding utf8
   }
 ```
 
-Kiểm tra lại bằng `Select-String -Path *.html, robots.txt, sitemap.xml -Pattern 'tumoazat.github.io/geoweb'` — phải không còn kết quả nào, và nhớ cập nhật `<lastmod>` trong `sitemap.xml`.
+Sau đó kiểm tra bằng `Select-String -Path *.html, robots.txt, sitemap.xml -Pattern 'vercel.app'` — phải không còn kết quả nào — và cập nhật `<lastmod>` trong `sitemap.xml`.
 
 ## Chiến lược SEO
 
