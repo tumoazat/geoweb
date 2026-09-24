@@ -1,0 +1,74 @@
+# ============================================================
+# robots.txt — GEARZONE
+# https://YOUR-USERNAME.github.io/gearzone/
+# ------------------------------------------------------------
+# File này cho crawler biết (các) đường dẫn nào được phép thu thập.
+# Toàn bộ site là nội dung công khai: trang tĩnh HTML/CSS/JS, không có
+# khu vực đăng nhập, không có API riêng, không có dữ liệu người dùng.
+# Vì vậy mọi crawler — bao gồm crawler của các sản phẩm AI/tìm kiếm
+# tạo sinh — đều được phép truy cập toàn bộ site.
+#
+# Nhóm User-agent riêng bên dưới dành cho các AI crawler phổ biến.
+# Khai báo tường minh giúp chủ site kiểm soát rõ ràng và dễ soát lại
+# về sau, thay vì chỉ dựa vào nhóm `User-agent: *`.
+#
+# LƯU Ý QUAN TRỌNG: việc cho phép các crawler dưới đây KHÔNG đảm bảo
+# bất kỳ sản phẩm AI nào sẽ index, xếp hạng hay trích dẫn (cite) nội
+# dung của site. Đây chỉ là tín hiệu cho phép truy cập — quyết định
+# index/rank/cite hoàn toàn thuộc về hệ thống của từng nhà cung cấp
+# và có thể thay đổi bất kỳ lúc nào.
+# ============================================================
+
+# ------------------------------------------------------------
+# AI crawlers — cho phép truy cập toàn bộ site
+# ------------------------------------------------------------
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# ------------------------------------------------------------
+# Tất cả crawler còn lại — cho phép toàn bộ, không chặn gì
+# ------------------------------------------------------------
+
+User-agent: *
+Allow: /
+Disallow:
+
+# ------------------------------------------------------------
+# Sitemap
+# ------------------------------------------------------------
+
+Sitemap: https://YOUR-USERNAME.github.io/gearzone/sitemap.xml
