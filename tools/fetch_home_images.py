@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Tải ảnh hotlink từ Google Stitch về máy và thay bằng đường dẫn local.
 
-index.html và index.new.html đang trỏ ảnh thẳng tới lh3.googleusercontent.com.
+index.html đang trỏ ảnh thẳng tới lh3.googleusercontent.com.
 Link đó là link tạm của Google — có thể hết hạn bất cứ lúc nào, làm vỡ layout
 và làm og:image trỏ ra ngoài site. Script này tải về images/home/ rồi viết lại
 src trong cả hai file.
@@ -20,7 +20,7 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEST_DIR = os.path.join(ROOT, "images", "home")
-PAGES = ["index.html", "index.new.html"]
+PAGES = ["index.html"]
 URL_RE = re.compile(r"https://lh3\.googleusercontent\.com/[^\"'\s>]+")
 EXT_BY_TYPE = {"image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif"}
 SITE = "https://geoweb.vercel.app"
