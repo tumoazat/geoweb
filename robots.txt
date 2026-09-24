@@ -1,6 +1,6 @@
 # ============================================================
 # robots.txt — GEARZONE
-# https://YOUR-USERNAME.github.io/gearzone/
+# https://tumoazat.github.io/geoweb/
 # ------------------------------------------------------------
 # File này cho crawler biết (các) đường dẫn nào được phép thu thập.
 # Toàn bộ site là nội dung công khai: trang tĩnh HTML/CSS/JS, không có
@@ -71,4 +71,4 @@ Disallow:
 # Sitemap
 # ------------------------------------------------------------
 
-Sitemap: https://YOUR-USERNAME.github.io/gearzone/sitemap.xml
+Sitemap: https://tumoazat.github.io/geoweb/sitemap.xml

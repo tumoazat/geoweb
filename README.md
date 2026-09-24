@@ -35,7 +35,7 @@ Không framework. Không build step. Không backend. Không database. Mở file 
 ## Cấu trúc thư mục
 
 ```text
-gearzone/
+geoweb/
 ├── .github/
 │   └── workflows/
 │       └── deploy-pages.yml    # workflow deploy lên GitHub Pages
@@ -89,33 +89,22 @@ npx serve .
 2. Vào repository **Settings → Pages**, đặt **Source** = `GitHub Actions`.
 3. Workflow `deploy-pages.yml` tự chạy mỗi lần push lên `main` (hoặc bấm **Run workflow** thủ công trong tab **Actions**). Sau khi xong, URL của site nằm ở output `page_url` của job `deploy`.
 
-### TODO sau khi deploy — thay URL placeholder
+### URL của site
 
-Site đang dùng URL placeholder `https://YOUR-USERNAME.github.io/gearzone/` ở mọi nơi. Sau khi biết URL Pages thật, phải thay **toàn bộ** placeholder tại:
+Host đã được đặt cố định là `https://tumoazat.github.io/geoweb/` — không còn placeholder. Giá trị này xuất hiện ở `canonical`, `og:url`, JSON-LD (`@id`, `url`, `logo`) trên các trang HTML, ở dòng `Sitemap:` trong `robots.txt` và ở mọi thẻ `<loc>` trong `sitemap.xml`.
 
-- [ ] `index.html` — `canonical`, `og:url`, `og:image`, và `url` trong JSON-LD
-- [ ] `products.html` — `canonical`, `og:url`, `og:image`, và `url` trong JSON-LD
-- [ ] `compare.html` — `canonical`, `og:url`, `og:image`, và `url` trong JSON-LD
-- [ ] `faq.html` — `canonical`, `og:url`, `og:image`, và `url` trong JSON-LD
-- [ ] `blog.html` — `canonical`, `og:url`, `og:image`, và `url` trong JSON-LD
-- [ ] `robots.txt` — dòng `Sitemap:`
-- [ ] `sitemap.xml` — **mọi** thẻ `<loc>` và `<lastmod>` (cập nhật `lastmod` thành ngày deploy thật)
-
-Gợi ý: dùng Find & Replace của VS Code (`Ctrl + Shift + H`), tìm `https://YOUR-USERNAME.github.io/gearzone/` và thay bằng URL thật.
-
-Hoặc chạy một lần trong PowerShell tại thư mục gốc:
+Nếu đổi sang domain riêng, chạy một lần trong PowerShell tại thư mục gốc:
 
 ```powershell
 Get-ChildItem -Recurse -File -Include *.html, *.txt, *.xml |
-  Where-Object { $_.FullName -notmatch '\\stitch_gearzone_gaming_gear_e_commerce\\' } |
   ForEach-Object {
     (Get-Content $_.FullName -Raw) `
-      -replace 'https://YOUR-USERNAME\.github\.io/gearzone/', 'https://TEN-USER-THAT.github.io/gearzone/' |
+      -replace 'https://tumoazat\.github\.io/geoweb/', 'https://domain-moi.example/' |
       Set-Content $_.FullName -NoNewline -Encoding utf8
   }
 ```
 
-Kiểm tra lại bằng `Select-String -Path *.html, robots.txt, sitemap.xml -Pattern 'YOUR-USERNAME'` — phải không còn kết quả nào.
+Kiểm tra lại bằng `Select-String -Path *.html, robots.txt, sitemap.xml -Pattern 'tumoazat.github.io/geoweb'` — phải không còn kết quả nào, và nhớ cập nhật `<lastmod>` trong `sitemap.xml`.
 
 ## Chiến lược SEO
 
