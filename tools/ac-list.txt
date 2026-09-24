@@ -1,0 +1,106 @@
+# 104 acceptance criteria
+
+AC-01 | Project chạy bằng static files | Mở `index.html` không cần build framework
+AC-02 | Không dùng framework | Không có React, Vue, Next.js, Bootstrap, Tailwind
+AC-03 | Product data tách riêng | Có `data/products.json`
+AC-04 | CSS tách riêng | Có `styles.css`
+AC-05 | JS tách riêng | Có `script.js`
+AC-06 | Có đúng 25 sản phẩm | `products.json` chứa 25 product objects
+AC-07 | Có 8 chuột | `category = mouse` có 8
+AC-08 | Có 8 bàn phím | `category = keyboard` có 8
+AC-09 | Có 7 tai nghe | `category = headset` có 7
+AC-10 | Có 2 phụ kiện | `category = accessory` có 2
+AC-11 | Sản phẩm đa thương hiệu | Có tối thiểu 10 thương hiệu
+AC-12 | Có nhiều phân khúc giá | Có sản phẩm giá rẻ, trung cấp và cao cấp
+AC-13 | Có thương hiệu Trung Quốc | Có VXE, Attack Shark, AULA, Akko, VGN, Scyrox hoặc tương đương
+AC-14 | Có thương hiệu quốc tế | Có Logitech, Razer, HyperX, SteelSeries, ASUS, ZOWIE hoặc tương đương
+AC-15 | Mỗi sản phẩm có thông số | Có specification object
+AC-16 | Mỗi sản phẩm có giá | Có `price`
+AC-17 | Mỗi sản phẩm có bảo hành | Có `warranty`
+AC-18 | Mỗi sản phẩm có mô tả | Có `description`
+AC-19 | Mỗi sản phẩm có ảnh | Có image path hợp lệ
+AC-20 | Mỗi sản phẩm có category | Không có product thiếu category
+AC-21 | Product card render tự động | Card được tạo từ JSON
+AC-22 | Có tên sản phẩm | Hiển thị chính xác
+AC-23 | Có thương hiệu | Hiển thị
+AC-24 | Có ảnh | Ảnh load thành công
+AC-25 | Có giá | Format VND
+AC-26 | Có rating | Hiển thị rating
+AC-27 | Có badge | Các sản phẩm phù hợp có New/Sale/Best Seller
+AC-28 | Hover có visual feedback | Card thay đổi nhẹ
+AC-29 | Không layout shift lớn | Hover không làm các card khác nhảy vị trí
+AC-30 | Hover card mở popup | `mouseenter` hiển thị popup
+AC-31 | Popup có tên | Tên khớp product data
+AC-32 | Popup có giá | Giá khớp JSON
+AC-33 | Popup có giá cũ | Nếu sản phẩm có oldPrice
+AC-34 | Popup có bảo hành | Hiển thị warranty
+AC-35 | Popup có mô tả | Hiển thị description
+AC-36 | Popup có thông số | Render specification
+AC-37 | Popup có khuyến mãi | Render promotions
+AC-38 | Popup thay đổi theo sản phẩm | Hover sản phẩm A → data A
+AC-39 | Hover sản phẩm B | Popup cập nhật sang data B
+AC-40 | Mouseleave đóng popup | Popup biến mất mượt
+AC-41 | Popup không bị viewport clipping | Không bị cắt khỏi màn hình
+AC-42 | Popup không che toàn bộ card | Card vẫn nhận diện được
+AC-43 | Popup animation mượt | 180–250ms
+AC-44 | Không tạo popup riêng cho từng product | Dùng component/function dùng chung
+AC-45 | Không hard-code popup | Popup lấy dữ liệu từ JSON
+AC-46 | Giá popup khớp card | Hai giá giống nhau
+AC-47 | Tên popup khớp card | Không sai tên
+AC-48 | Specification đúng product | Không hiển thị thông số sản phẩm khác
+AC-49 | Promotion đúng product | Không dùng promotion chung sai sản phẩm
+AC-50 | Không có `undefined` | Không xuất hiện undefined/null trên UI
+AC-51 | Filter All | Hiển thị 25
+AC-52 | Filter Mouse | Hiển thị 8
+AC-53 | Filter Keyboard | Hiển thị 8
+AC-54 | Filter Headset | Hiển thị 7
+AC-55 | Filter Accessory | Hiển thị 2
+AC-56 | Filter animation | Chuyển đổi mượt
+AC-57 | Không reload page | Filter bằng JS
+AC-58 | Search theo tên | Tìm được product
+AC-59 | Search theo brand | Ví dụ "Razer"
+AC-60 | Search theo category | Ví dụ "mouse"
+AC-61 | Search không phân biệt hoa thường | `RAZER` và `razer` cho kết quả tương đương
+AC-62 | Không có kết quả | Hiển thị empty state
+AC-63 | Search realtime | Kết quả cập nhật khi nhập
+AC-64 | Add to cart hoạt động | Product được thêm
+AC-65 | Cart count cập nhật | Badge thay đổi
+AC-66 | Cart lưu localStorage | Refresh không mất dữ liệu
+AC-67 | Có thể xóa | Remove hoạt động
+AC-68 | Không tạo duplicate object | Quantity tăng nếu thêm cùng sản phẩm
+AC-69 | Mobile không vỡ layout | Không overflow ngoài ý muốn
+AC-70 | Tablet đúng grid | 3 columns
+AC-71 | Desktop đúng grid | 5 columns
+AC-72 | Mobile product card | 2 columns
+AC-73 | Mobile popup | Bottom sheet
+AC-74 | Mobile navigation | Có thể sử dụng
+AC-75 | CTA mobile | Không bị tràn
+AC-76 | Search mobile | Có thể nhập và sử dụng
+AC-77 | Image alt | Product images có alt
+AC-78 | Button semantic | Dùng `<button>` cho action
+AC-79 | Navigation semantic | Dùng `<nav>`
+AC-80 | Heading hierarchy | H1 → H2 → H3 hợp lý
+AC-81 | Keyboard focus | Có visible focus
+AC-82 | Contrast | Text dễ đọc trên nền
+AC-83 | Reduced motion | Có hỗ trợ `prefers-reduced-motion`
+AC-84 | Có title | Title không rỗng
+AC-85 | Có meta description | Description có nội dung
+AC-86 | Có H1 | Chính xác 1 H1
+AC-87 | Có semantic sections | Header/Main/Section/Footer
+AC-88 | Có canonical | Canonical tồn tại
+AC-89 | Có Open Graph | OG title/image/description
+AC-90 | Có robots.txt | File tồn tại
+AC-91 | Có sitemap.xml | File tồn tại
+AC-92 | Organization schema | Có
+AC-93 | WebSite schema | Có
+AC-94 | ItemList schema | Có
+AC-95 | Product schema | Có
+AC-96 | FAQPage schema | Có
+AC-97 | JSON hợp lệ | Không có syntax error
+AC-98 | Schema khớp nội dung | Không khai báo dữ liệu mâu thuẫn với UI
+AC-99 | Không dùng dependency nặng | Không có thư viện ngoài không cần thiết
+AC-100 | Images tối ưu | Dùng WebP/AVIF khi có thể
+AC-101 | Lazy loading | Product images sử dụng lazy loading phù hợp
+AC-102 | Không có console error | Console không có lỗi JS
+AC-103 | Không có broken image | Không ảnh nào bị lỗi
+AC-104 | Không có broken link | Các link nội bộ hoạt động
