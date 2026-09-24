@@ -1,0 +1,997 @@
+[
+  {
+    "id": "mouse-001",
+    "slug": "attack-shark-x3",
+    "brand": "Attack Shark",
+    "name": "Attack Shark X3",
+    "category": "mouse",
+    "price": 690000,
+    "compareAtPrice": 890000,
+    "rating": 4.6,
+    "reviewCount": 312,
+    "badge": "NEW",
+    "featured": true,
+    "image": "images/mouse/attack-shark-x3.webp",
+    "shortDescription": "Chuột gaming không dây siêu nhẹ cho FPS.",
+    "description": "Attack Shark X3 chỉ nặng 49g nhờ vỏ nhựa gia cường, kết hợp cảm biến PAW3395 cho độ chính xác cao trong các pha flick. Kết nối 2.4GHz không dây ổn định, pin dùng được khoảng 100 giờ. Phù hợp với người chơi FPS cần một con chuột nhẹ với mức giá dễ tiếp cận.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Competitive Gaming"],
+    "specifications": {
+      "weight": "49g",
+      "sensor": "PAW3395",
+      "dpi": "26000",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz / Bluetooth",
+      "battery": "100 giờ",
+      "switches": "Huano Pink Dot",
+      "size": "120 x 63 x 38mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Trọng lượng rất nhẹ",
+      "Cảm biến chính xác",
+      "Giá tốt trong phân khúc"
+    ],
+    "cons": ["Phần mềm còn hạn chế"],
+    "promotions": ["Tặng grip tape", "Miễn phí vận chuyển toàn quốc"]
+  },
+  {
+    "id": "mouse-002",
+    "slug": "logitech-g102-lightsync",
+    "brand": "Logitech",
+    "name": "Logitech G102 Lightsync",
+    "category": "mouse",
+    "price": 490000,
+    "compareAtPrice": 590000,
+    "rating": 4.8,
+    "reviewCount": 812,
+    "badge": "BEST SELLER",
+    "featured": true,
+    "image": "images/mouse/logitech-g102-lightsync.webp",
+    "shortDescription": "Chuột gaming có dây quốc dân, cảm biến 8.000 DPI.",
+    "description": "Logitech G102 Lightsync là lựa chọn nhập môn quen thuộc nhờ cảm biến quang học 8.000 DPI và 6 nút lập trình được. Trọng lượng 85g, dây USB dài 2m cùng đèn RGB LIGHTSYNC 16,8 triệu màu. Phù hợp cho người mới chơi game hoặc cần một con chuột bền bỉ để làm việc hằng ngày.",
+    "warranty": "24 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Casual Gaming", "Work & Play"],
+    "specifications": {
+      "weight": "85g",
+      "sensor": "Optical 8K",
+      "dpi": "8000",
+      "pollingRate": "1000Hz",
+      "connection": "USB có dây",
+      "battery": "Không",
+      "switches": "Omron 10M",
+      "size": "116.6 x 62.15 x 38.2mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Giá rất dễ tiếp cận",
+      "Form cầm phổ thông, dễ làm quen",
+      "Phần mềm G HUB ổn định"
+    ],
+    "cons": [
+      "Chỉ có 6 nút, không có nút hông phụ",
+      "Cảm biến 8.000 DPI đủ dùng nhưng không cao"
+    ],
+    "promotions": [
+      "Miễn phí vận chuyển toàn quốc",
+      "Giảm 10% khi thanh toán online"
+    ]
+  },
+  {
+    "id": "mouse-003",
+    "slug": "logitech-g305-lightspeed",
+    "brand": "Logitech",
+    "name": "Logitech G305 Lightspeed",
+    "category": "mouse",
+    "price": 890000,
+    "compareAtPrice": 1090000,
+    "rating": 4.7,
+    "reviewCount": 534,
+    "badge": "",
+    "featured": false,
+    "image": "images/mouse/logitech-g305-lightspeed.webp",
+    "shortDescription": "Chuột không dây chạy pin AA, cảm biến HERO 12K.",
+    "description": "Logitech G305 Lightspeed dùng cảm biến HERO 12.000 DPI và kết nối Lightspeed gần như không có độ trễ. Chuột chạy bằng một viên pin AA cho khoảng 250 giờ sử dụng liên tục nên rất hợp với người hay quên sạc. Trọng lượng 99g, dùng tốt cho cả chơi game lẫn công việc.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Work & Play"],
+    "specifications": {
+      "weight": "99g",
+      "sensor": "HERO 12K",
+      "dpi": "12000",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz",
+      "battery": "250 giờ",
+      "switches": "Omron 10M",
+      "size": "116.6 x 62.15 x 38.2mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Pin AA dùng rất lâu",
+      "Kết nối không dây ổn định",
+      "Giá hợp lý cho chuột không dây"
+    ],
+    "cons": [
+      "Hơi nặng so với chuột không dây hiện nay",
+      "Không có đèn RGB"
+    ],
+    "promotions": [
+      "Tặng pin AA dự phòng",
+      "Miễn phí vận chuyển toàn quốc",
+      "Bảo hành 1 đổi 1 trong 30 ngày"
+    ]
+  },
+  {
+    "id": "mouse-004",
+    "slug": "logitech-g-pro-x-superlight-2",
+    "brand": "Logitech",
+    "name": "Logitech G Pro X Superlight 2",
+    "category": "mouse",
+    "price": 2990000,
+    "compareAtPrice": 3490000,
+    "rating": 4.9,
+    "reviewCount": 268,
+    "badge": "BEST SELLER",
+    "featured": true,
+    "image": "images/mouse/logitech-g-pro-x-superlight-2.webp",
+    "shortDescription": "Chuột esports 60g, cảm biến HERO 2, pin 95 giờ.",
+    "description": "G Pro X Superlight 2 nặng đúng 60g và trang bị cảm biến HERO 2 với 32.000 DPI, tốc độ polling 2.000Hz. Switch Lightforce Hybrid cho cảm giác bấm nhanh và dứt khoát, pin dùng tới 95 giờ. Đây là lựa chọn quen thuộc của các tuyển thủ FPS chuyên nghiệp.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Esports", "Competitive Gaming"],
+    "specifications": {
+      "weight": "60g",
+      "sensor": "HERO 2",
+      "dpi": "32000",
+      "pollingRate": "2000Hz",
+      "connection": "Wireless Lightspeed 2.4GHz",
+      "battery": "95 giờ",
+      "switches": "Lightforce Hybrid",
+      "size": "125 x 63.5 x 40mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Trọng lượng 60g rất nhẹ",
+      "Cảm biến HERO 2 chính xác cao",
+      "Pin lâu, sạc nhanh qua USB-C"
+    ],
+    "cons": ["Giá cao", "Không có đèn RGB"],
+    "promotions": [
+      "Tặng grip tape chính hãng",
+      "Miễn phí vận chuyển toàn quốc",
+      "Trả góp 0% qua thẻ tín dụng"
+    ]
+  },
+  {
+    "id": "mouse-005",
+    "slug": "razer-deathadder-essential",
+    "brand": "Razer",
+    "name": "Razer DeathAdder Essential",
+    "category": "mouse",
+    "price": 390000,
+    "compareAtPrice": 490000,
+    "rating": 4.6,
+    "reviewCount": 640,
+    "badge": "SALE",
+    "featured": false,
+    "image": "images/mouse/razer-deathadder-essential.webp",
+    "shortDescription": "Chuột có dây kinh điển với form cầm công thái học.",
+    "description": "DeathAdder Essential giữ nguyên form cầm công thái học đã làm nên tên tuổi của dòng DeathAdder, cảm biến quang 6.400 DPI và 5 nút Hyperesponse. Trọng lượng 96g, dây USB dài 1,8m và switch bền tới 10 triệu lần bấm. Phù hợp cho người chơi MOBA hoặc game thủ mới bắt đầu.",
+    "warranty": "24 Tháng",
+    "connection": "Wired",
+    "useCases": ["MOBA", "Casual Gaming"],
+    "specifications": {
+      "weight": "96g",
+      "sensor": "Optical 6400 DPI",
+      "dpi": "6400",
+      "pollingRate": "1000Hz",
+      "connection": "USB có dây",
+      "battery": "Không",
+      "switches": "Mechanical 10M",
+      "size": "127 x 73 x 43mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Form cầm công thái học dễ chịu",
+      "Giá rất rẻ",
+      "Switch bền 10 triệu lần bấm"
+    ],
+    "cons": ["Cảm biến chỉ 6.400 DPI", "Không có đèn RGB"],
+    "promotions": [
+      "Giảm thêm 50.000đ khi mua kèm bàn phím",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "mouse-006",
+    "slug": "razer-viper-v3-pro",
+    "brand": "Razer",
+    "name": "Razer Viper V3 Pro",
+    "category": "mouse",
+    "price": 3990000,
+    "compareAtPrice": 4290000,
+    "rating": 4.8,
+    "reviewCount": 152,
+    "badge": "",
+    "featured": false,
+    "image": "images/mouse/razer-viper-v3-pro.webp",
+    "shortDescription": "Chuột esports 54g với polling 8.000Hz.",
+    "description": "Viper V3 Pro chỉ nặng 54g, dùng cảm biến Focus Pro 35K Gen-2 và switch quang thế hệ 3 cho độ bền cao. Chuột hỗ trợ polling 8.000Hz khi dùng kèm HyperPolling Wireless Dongle đi kèm, pin khoảng 95 giờ. Đây là mẫu chuột không dây hướng tới game thủ FPS chuyên nghiệp.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Esports", "Competitive Gaming"],
+    "specifications": {
+      "weight": "54g",
+      "sensor": "Focus Pro 35K Gen-2",
+      "dpi": "35000",
+      "pollingRate": "8000Hz",
+      "connection": "Wireless HyperSpeed 2.4GHz",
+      "battery": "95 giờ",
+      "switches": "Optical Gen-3",
+      "size": "127 x 63.9 x 39.9mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Nhẹ 54g, form đối xứng dễ làm quen",
+      "Cảm biến 35.000 DPI và polling 8.000Hz",
+      "Pin lâu, sạc qua USB-C"
+    ],
+    "cons": ["Giá rất cao", "Không có đèn RGB"],
+    "promotions": [
+      "Tặng grip tape Razer",
+      "Bảo hành 1 đổi 1 trong 30 ngày",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "mouse-007",
+    "slug": "scyrox-v8",
+    "brand": "Scyrox",
+    "name": "Scyrox V8",
+    "category": "mouse",
+    "price": 1490000,
+    "compareAtPrice": 1790000,
+    "rating": 4.6,
+    "reviewCount": 214,
+    "badge": "NEW",
+    "featured": false,
+    "image": "images/mouse/scyrox-v8.webp",
+    "shortDescription": "Chuột không dây 36g, cảm biến PAW3395, polling 8K.",
+    "description": "Scyrox V8 nặng chỉ 36g, thuộc nhóm chuột nhẹ nhất trên thị trường hiện nay. Máy dùng cảm biến PAW3395 26.000 DPI, hỗ trợ polling 8.000Hz và switch Huano Blue Shell Pink Dot bền bỉ. Phù hợp cho game thủ FPS muốn chuột siêu nhẹ với ngân sách vừa phải.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Esports"],
+    "specifications": {
+      "weight": "36g",
+      "sensor": "PAW3395",
+      "dpi": "26000",
+      "pollingRate": "8000Hz",
+      "connection": "Wireless 2.4GHz",
+      "battery": "60 giờ",
+      "switches": "Huano Blue Shell Pink Dot",
+      "size": "118 x 62 x 39mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Cực nhẹ, chỉ 36g",
+      "Hỗ trợ polling 8.000Hz",
+      "Cấu hình tốt so với mức giá"
+    ],
+    "cons": ["Thời lượng pin không cao", "Vỏ nhựa mỏng, cần giữ gìn"],
+    "promotions": [
+      "Tặng grip tape",
+      "Tặng dây cáp paracord USB-C",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "mouse-008",
+    "slug": "vxe-dragonfly-r1-se",
+    "brand": "VXE",
+    "name": "VXE Dragonfly R1 SE",
+    "category": "mouse",
+    "price": 590000,
+    "compareAtPrice": 750000,
+    "rating": 4.5,
+    "reviewCount": 720,
+    "badge": "SALE",
+    "featured": false,
+    "image": "images/mouse/vxe-dragonfly-r1-se.webp",
+    "shortDescription": "Chuột không dây giá rẻ, nhẹ 55g, 26.000 DPI.",
+    "description": "VXE Dragonfly R1 SE là mẫu chuột không dây bán chạy nhờ mức giá chưa tới 600.000đ mà vẫn có cảm biến PAW3395 SE và trọng lượng 55g. Chuột dùng switch Huano Blue Shell Pink Dot, pin khoảng 90 giờ và polling 1.000Hz. Rất hợp với sinh viên hoặc người chơi cần một con chuột nhẹ để leo rank.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "MOBA", "Casual Gaming"],
+    "specifications": {
+      "weight": "55g",
+      "sensor": "PAW3395 SE",
+      "dpi": "26000",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz",
+      "battery": "90 giờ",
+      "switches": "Huano Blue Shell Pink Dot",
+      "size": "120 x 63 x 38mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Giá cực rẻ cho một con chuột không dây",
+      "Nhẹ 55g, dễ làm quen",
+      "Cảm biến PAW3395 SE đủ sức thi đấu"
+    ],
+    "cons": ["Chỉ hỗ trợ polling 1.000Hz", "Độ hoàn thiện nhựa chưa cao cấp"],
+    "promotions": [
+      "Tặng grip tape",
+      "Giảm 10% khi thanh toán online",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "accessory-002",
+    "slug": "razer-gigantus-v3",
+    "brand": "Razer",
+    "name": "Razer Gigantus V3",
+    "category": "accessory",
+    "price": 1490000,
+    "compareAtPrice": 1790000,
+    "rating": 4.7,
+    "reviewCount": 96,
+    "badge": "",
+    "featured": false,
+    "image": "images/accessory/artisan-ninja-fx-zero.webp",
+    "shortDescription": "Pad chuột gaming lớn, mặt vải dày, tối ưu cho FPS.",
+    "description": "Razer Gigantus V3 là pad chuột gaming kích thước lớn với mặt vải dày, độ trượt ổn định và bề mặt hỗ trợ sở hữu cảm giác kiểm soát tốt trong mọi pha kéo chuột. Đế cao su bám chắc trên bàn và viền cứng giúp giữ nguyên form sau thời gian dài sử dụng. Phù hợp cho game thủ FPS muốn di chuột mượt và chính xác hơn.",
+    "warranty": "12 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Competitive Gaming"],
+    "specifications": {
+      "weight": "420g",
+      "surface": "Cloth",
+      "dimensions": "900 x 400 x 4mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Mặt vải mượt, di chuột ổn định",
+      "Kích thước rộng cho cả tay cầm",
+      "Đế cao su bám chắc trên bàn"
+    ],
+    "cons": ["Cần vệ sinh định kỳ", "Giá cao hơn pad cơ bản"],
+    "promotions": ["Tặng túi chống sốc", "Miễn phí vận chuyển toàn quốc"]
+  },
+  {
+    "id": "keyboard-001",
+    "slug": "akko-5075b-plus",
+    "brand": "Akko",
+    "name": "Akko 5075B Plus",
+    "category": "keyboard",
+    "price": 1290000,
+    "compareAtPrice": 1590000,
+    "rating": 4.6,
+    "reviewCount": 342,
+    "badge": "",
+    "featured": false,
+    "image": "images/keyboard/akko-5075b-plus.webp",
+    "shortDescription": "Bàn phím cơ 75% gasket, ba chế độ kết nối.",
+    "description": "Akko 5075B Plus là bàn phím cơ 75% với cấu trúc gasket mount cho cảm giác gõ êm, kèm kê tay và hỗ trợ hot-swap thay switch nhanh. Kết nối cả 2.4GHz, Bluetooth và USB-C, pin 3.000mAh dùng được khoảng 180 giờ khi tắt đèn. Phù hợp cho cả chơi game lẫn gõ văn bản hằng ngày.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Work & Play", "Casual Gaming"],
+    "specifications": {
+      "weight": "750g",
+      "switchType": "Akko Cream Yellow V3 Pro",
+      "layout": "75%",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "battery": "180 giờ",
+      "size": "312 x 124 x 41mm",
+      "compatibility": "PC, Mac, Android, iOS"
+    },
+    "pros": [
+      "Cấu trúc gasket gõ êm",
+      "Hot-swap thay switch dễ dàng",
+      "Ba chế độ kết nối tiện dụng"
+    ],
+    "cons": [
+      "Không có màn hình phụ",
+      "Phần mềm chỉnh phím còn đơn giản"
+    ],
+    "promotions": [
+      "Tặng kê tay",
+      "Tặng bộ keycap dự phòng",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "keyboard-002",
+    "slug": "asus-rog-azoth",
+    "brand": "ASUS",
+    "name": "ASUS ROG Azoth",
+    "category": "keyboard",
+    "price": 5490000,
+    "compareAtPrice": 5990000,
+    "rating": 4.8,
+    "reviewCount": 118,
+    "badge": "",
+    "featured": false,
+    "image": "images/keyboard/asus-rog-azoth.webp",
+    "shortDescription": "Bàn phím cơ 75% cao cấp, màn hình OLED, gasket mount.",
+    "description": "ROG Azoth là bàn phím cơ 75% cao cấp với màn hình OLED hiển thị thông tin hệ thống và núm xoay tùy chỉnh. Khung nhôm kết hợp cấu trúc gasket mount hai lớp silicone cho âm gõ trầm ấm, kèm sẵn dụng cụ lube switch và switch dự phòng. Sản phẩm hỗ trợ hot-swap, kết nối 2.4GHz, Bluetooth hoặc USB-C, phù hợp cho người cần một chiếc bàn phím vừa chơi game vừa làm việc.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Competitive Gaming", "Work & Play"],
+    "specifications": {
+      "weight": "1150g",
+      "switchType": "ROG NX Snow (Linear)",
+      "layout": "75%",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "battery": "2000 giờ",
+      "size": "326 x 136 x 40mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Màn hình OLED tiện theo dõi thông tin",
+      "Cấu trúc gasket mount chắc chắn",
+      "Kèm dụng cụ lube và switch dự phòng"
+    ],
+    "cons": ["Giá cao", "Khá nặng, không thuận tiện mang đi"],
+    "promotions": [
+      "Tặng túi chống sốc ROG",
+      "Bảo hành 1 đổi 1 trong 30 ngày",
+      "Trả góp 0% qua thẻ tín dụng"
+    ]
+  },
+  {
+    "id": "keyboard-003",
+    "slug": "aula-f75-pro-max",
+    "brand": "AULA",
+    "name": "AULA F75 Pro Max",
+    "category": "keyboard",
+    "price": 890000,
+    "compareAtPrice": 1150000,
+    "rating": 4.7,
+    "reviewCount": 890,
+    "badge": "BEST SELLER",
+    "featured": true,
+    "image": "images/keyboard/aula-f75-pro-max.webp",
+    "shortDescription": "Bàn phím cơ 75% gasket, hot-swap, pin 4.000mAh.",
+    "description": "AULA F75 Pro Max là bàn phím cơ 75% bán chạy nhất phân khúc dưới 1 triệu nhờ cấu trúc gasket, 5 lớp tiêu âm và switch Leobog Reaper gõ êm. Kết nối 2.4GHz, Bluetooth và USB-C với pin 4.000mAh, hỗ trợ hot-swap cả switch 3 pin lẫn 5 pin. Phù hợp cho người mới chơi bàn phím cơ và game thủ cần bàn phím gọn cho góc máy.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Casual Gaming", "Work & Play"],
+    "specifications": {
+      "weight": "900g",
+      "switchType": "Leobog Reaper (Linear)",
+      "layout": "75%",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "battery": "200 giờ",
+      "size": "322 x 135 x 40mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Giá rẻ nhưng cấu hình tốt",
+      "Gasket 5 lớp tiêu âm, gõ êm",
+      "Pin 4.000mAh dùng lâu"
+    ],
+    "cons": [
+      "Vỏ nhựa ABS dễ bám vân tay",
+      "Không có phần mềm chỉnh phím chuyên sâu"
+    ],
+    "promotions": [
+      "Tặng kê tay",
+      "Tặng switch dự phòng",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "keyboard-004",
+    "slug": "logitech-g-pro-x-tkl",
+    "brand": "Logitech",
+    "name": "Logitech G Pro X TKL",
+    "category": "keyboard",
+    "price": 3290000,
+    "compareAtPrice": 3690000,
+    "rating": 4.6,
+    "reviewCount": 176,
+    "badge": "",
+    "featured": false,
+    "image": "images/keyboard/logitech-g-pro-x-tkl.webp",
+    "shortDescription": "Bàn phím cơ TKL không dây dành cho thi đấu.",
+    "description": "G Pro X TKL là bàn phím cơ TKL không dây hướng tới thi đấu, dùng kết nối Lightspeed ổn định và switch GX. Bàn phím có đèn RGB LIGHTSYNC, keycap PBT hai lớp và pin dùng tới 50 giờ khi bật đèn. Form TKL gọn gàng giúp để vừa hầu hết các góc máy thi đấu.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Esports", "Competitive Gaming"],
+    "specifications": {
+      "weight": "1030g",
+      "switchType": "GX Brown (Tactile)",
+      "layout": "TKL",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless Lightspeed 2.4GHz",
+      "battery": "50 giờ",
+      "size": "355 x 150 x 34mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Kết nối Lightspeed rất ổn định",
+      "Form TKL gọn cho thi đấu",
+      "Keycap PBT bền, không bóng dầu"
+    ],
+    "cons": ["Không hỗ trợ hot-swap", "Giá cao so với cấu hình"],
+    "promotions": [
+      "Tặng túi chống sốc",
+      "Giảm 10% khi thanh toán online",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "keyboard-005",
+    "slug": "razer-huntsman-v3-pro-tkl",
+    "brand": "Razer",
+    "name": "Razer Huntsman V3 Pro TKL",
+    "category": "keyboard",
+    "price": 5290000,
+    "compareAtPrice": 5690000,
+    "rating": 4.7,
+    "reviewCount": 88,
+    "badge": "",
+    "featured": false,
+    "image": "images/keyboard/razer-huntsman-v3-pro-tkl.webp",
+    "shortDescription": "Bàn phím analog optical TKL với Rapid Trigger.",
+    "description": "Huntsman V3 Pro TKL dùng switch Analog Optical Gen-2 cho phép chỉnh điểm nhận phím theo từng phím và bật Rapid Trigger để reset ngay khi vừa nhả phím. Polling 8.000Hz cùng dàn phím điều khiển nhanh ngay trên bàn phím, không cần mở phần mềm. Đây là lựa chọn cho game thủ FPS muốn tối ưu từng mili-giây phản hồi.",
+    "warranty": "24 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Esports", "Competitive Gaming"],
+    "specifications": {
+      "weight": "985g",
+      "switchType": "Analog Optical Gen-2",
+      "layout": "TKL",
+      "pollingRate": "8000Hz",
+      "connection": "USB-C có dây",
+      "battery": "Không",
+      "size": "362 x 156 x 35mm",
+      "compatibility": "PC"
+    },
+    "pros": [
+      "Rapid Trigger cho phản hồi cực nhanh",
+      "Polling 8.000Hz",
+      "Chỉnh analog trực tiếp trên bàn phím"
+    ],
+    "cons": ["Giá rất cao", "Chỉ dùng có dây"],
+    "promotions": [
+      "Tặng kê tay Razer",
+      "Bảo hành 1 đổi 1 trong 30 ngày",
+      "Trả góp 0% qua thẻ tín dụng"
+    ]
+  },
+  {
+    "id": "keyboard-006",
+    "slug": "vgn-n75-pro",
+    "brand": "VGN",
+    "name": "VGN N75 Pro",
+    "category": "keyboard",
+    "price": 990000,
+    "compareAtPrice": 1290000,
+    "rating": 4.5,
+    "reviewCount": 512,
+    "badge": "",
+    "featured": false,
+    "image": "images/keyboard/vgn-n75-pro.webp",
+    "shortDescription": "Bàn phím cơ 75% giá rẻ, gasket, hot-swap.",
+    "description": "VGN N75 Pro là bàn phím cơ 75% giá rẻ với cấu trúc gasket và switch tuyến tính gõ êm, hỗ trợ hot-swap. Kết nối 2.4GHz, Bluetooth và USB-C, pin 4.000mAh dùng được khoảng 150 giờ khi tắt đèn RGB. Phù hợp cho người mới bước vào bàn phím cơ với ngân sách dưới 1 triệu.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Casual Gaming", "Work & Play"],
+    "specifications": {
+      "weight": "850g",
+      "switchType": "VGN Ice Cream (Linear)",
+      "layout": "75%",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "battery": "150 giờ",
+      "size": "320 x 135 x 40mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Giá dưới 1 triệu",
+      "Gasket mount gõ êm",
+      "Hot-swap cả switch 5 pin"
+    ],
+    "cons": [
+      "Phần mềm chỉnh phím chưa hoàn thiện",
+      "Chất lượng hoàn thiện ở mức khá"
+    ],
+    "promotions": ["Tặng kê tay", "Miễn phí vận chuyển toàn quốc"]
+  },
+  {
+    "id": "keyboard-007",
+    "slug": "wooting-60he",
+    "brand": "Wooting",
+    "name": "Wooting 60HE",
+    "category": "keyboard",
+    "price": 2990000,
+    "compareAtPrice": 3290000,
+    "rating": 4.9,
+    "reviewCount": 142,
+    "badge": "NEW",
+    "featured": false,
+    "image": "images/keyboard/wooting-60he.webp",
+    "shortDescription": "Bàn phím Hall Effect 60% với Rapid Trigger.",
+    "description": "Wooting 60HE dùng switch Lekker Hall Effect và phần mềm Wootility cho phép chỉnh điểm nhận phím, Rapid Trigger và analog cho từng phím riêng biệt. Polling 8.000Hz, kích thước 60% gọn gàng cho góc máy thi đấu. Đây là chiếc bàn phím được nhiều tuyển thủ FPS chuyên nghiệp lựa chọn.",
+    "warranty": "24 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Esports", "Competitive Gaming"],
+    "specifications": {
+      "weight": "620g",
+      "switchType": "Lekker Hall Effect",
+      "layout": "60%",
+      "pollingRate": "8000Hz",
+      "connection": "USB-C có dây",
+      "battery": "Không",
+      "size": "295 x 110 x 40mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Rapid Trigger chỉnh theo từng phím",
+      "Polling 8.000Hz",
+      "Phần mềm Wootility rất linh hoạt"
+    ],
+    "cons": ["Layout 60% thiếu phím mũi tên", "Chỉ dùng có dây"],
+    "promotions": [
+      "Tặng bộ keycap PBT",
+      "Bảo hành 1 đổi 1 trong 30 ngày",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "keyboard-008",
+    "slug": "keychron-v3-max",
+    "brand": "Keychron",
+    "name": "Keychron V3 Max",
+    "category": "keyboard",
+    "price": 2190000,
+    "compareAtPrice": 2490000,
+    "rating": 4.6,
+    "reviewCount": 203,
+    "badge": "",
+    "featured": false,
+    "image": "images/keyboard/keychron-v3-max.webp",
+    "shortDescription": "Bàn phím cơ TKL không dây, núm xoay, hỗ trợ QMK/VIA.",
+    "description": "Keychron V3 Max là bàn phím cơ TKL có núm xoay, kết cấu gasket và hỗ trợ QMK/VIA để tùy chỉnh từng phím theo ý muốn. Kết nối 2.4GHz, Bluetooth hoặc USB-C, pin 4.000mAh dùng được khoảng 180 giờ khi tắt đèn. Phù hợp cho người vừa gõ code vừa chơi game và thích tự chỉnh layout.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Work & Play", "Casual Gaming"],
+    "specifications": {
+      "weight": "1100g",
+      "switchType": "Keychron K Pro Red (Linear)",
+      "layout": "TKL",
+      "pollingRate": "1000Hz",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "battery": "180 giờ",
+      "size": "359 x 140 x 40mm",
+      "compatibility": "PC, Mac, Linux"
+    },
+    "pros": [
+      "Hỗ trợ QMK/VIA tùy biến sâu",
+      "Có núm xoay tiện dụng",
+      "Gasket mount gõ êm"
+    ],
+    "cons": ["Khá nặng để mang đi", "Switch stock chưa được lube kỹ"],
+    "promotions": [
+      "Tặng kê tay",
+      "Tặng bộ switch dự phòng",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "headset-001",
+    "slug": "asus-rog-delta-s",
+    "brand": "ASUS",
+    "name": "ASUS ROG Delta S",
+    "category": "headset",
+    "price": 2490000,
+    "compareAtPrice": 2890000,
+    "rating": 4.5,
+    "reviewCount": 164,
+    "badge": "",
+    "featured": false,
+    "image": "images/headset/asus-rog-delta-s.webp",
+    "shortDescription": "Tai nghe USB-C với DAC ESS và driver 50mm.",
+    "description": "ROG Delta S dùng kết nối USB-C kèm DAC ESS 9281 cho âm thanh chi tiết, driver 50mm Neodymium tái tạo âm tốt cả khi chơi game lẫn nghe nhạc. Microphone chống ồn tháo rời được, đèn RGB Aura Sync và khung nhôm nhẹ đeo êm. Phù hợp cho game thủ chơi trên PC hoặc laptop có cổng USB-C.",
+    "warranty": "24 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Streaming", "Casual Gaming"],
+    "specifications": {
+      "weight": "300g",
+      "driver": "50mm Neodymium",
+      "microphone": "Có",
+      "connection": "USB-C có dây",
+      "battery": "Không",
+      "size": "220 x 190 x 95mm",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "DAC ESS cho âm thanh chi tiết",
+      "Đeo êm, khung nhôm nhẹ",
+      "Microphone tháo rời tiện lợi"
+    ],
+    "cons": [
+      "Chỉ kết nối USB-C, không có jack 3.5mm",
+      "Giá khá cao so với tai nghe có dây"
+    ],
+    "promotions": ["Tặng earpad dự phòng", "Miễn phí vận chuyển toàn quốc"]
+  },
+  {
+    "id": "headset-002",
+    "slug": "hyperx-cloud-iii",
+    "brand": "HyperX",
+    "name": "HyperX Cloud III",
+    "category": "headset",
+    "price": 1890000,
+    "compareAtPrice": 2190000,
+    "rating": 4.8,
+    "reviewCount": 705,
+    "badge": "BEST SELLER",
+    "featured": true,
+    "image": "images/headset/hyperx-cloud-iii.webp",
+    "shortDescription": "Tai nghe có dây driver 53mm, đeo êm, mic khử ồn.",
+    "description": "HyperX Cloud III dùng driver 53mm đặt nghiêng cho âm trường rộng và tiếng bước chân rõ ràng, kết nối có dây qua jack 3.5mm hoặc USB-C. Khung nhôm bền cùng đệm tai memory foam bọc da giúp đeo nhiều giờ vẫn thoải mái. Microphone 10mm khử ồn tốt, phù hợp cho cả chơi game và họp online.",
+    "warranty": "24 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Casual Gaming", "Work & Play"],
+    "specifications": {
+      "weight": "320g",
+      "driver": "53mm Angled",
+      "microphone": "Có",
+      "connection": "USB-C / 3.5mm có dây",
+      "battery": "Không",
+      "size": "200 x 180 x 90mm",
+      "compatibility": "PC, Mac, PS5, Xbox, Switch"
+    },
+    "pros": [
+      "Đeo cực kỳ thoải mái",
+      "Driver 53mm cho âm trường rộng",
+      "Khung nhôm chắc chắn"
+    ],
+    "cons": ["Không có phiên bản không dây", "Không có đèn RGB"],
+    "promotions": [
+      "Tặng túi chống sốc",
+      "Tặng earpad dự phòng",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "headset-003",
+    "slug": "logitech-g733-lightspeed",
+    "brand": "Logitech",
+    "name": "Logitech G733 Lightspeed",
+    "category": "headset",
+    "price": 2290000,
+    "compareAtPrice": 2590000,
+    "rating": 4.4,
+    "reviewCount": 388,
+    "badge": "",
+    "featured": false,
+    "image": "images/headset/logitech-g733-lightspeed.webp",
+    "shortDescription": "Tai nghe không dây pin 29 giờ, có đèn RGB.",
+    "description": "G733 Lightspeed là tai nghe không dây dùng driver PRO-G 40mm, kết nối Lightspeed ổn định và pin dùng khoảng 29 giờ khi bật đèn. Trọng lượng 278g cùng đệm tai bọc vải thoáng khí giúp đeo lâu không bí. Phù hợp cho game thủ thích dây đeo màu sắc và đèn RGB cá tính.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Casual Gaming", "Streaming"],
+    "specifications": {
+      "weight": "278g",
+      "driver": "40mm PRO-G",
+      "microphone": "Có",
+      "connection": "Wireless Lightspeed 2.4GHz",
+      "battery": "29 giờ",
+      "size": "200 x 180 x 90mm",
+      "compatibility": "PC, PS5"
+    },
+    "pros": [
+      "Đeo nhẹ và thoáng",
+      "Không dây, pin 29 giờ",
+      "Dây đeo và đèn RGB tùy biến"
+    ],
+    "cons": [
+      "Chỉ kết nối 2.4GHz, không có Bluetooth",
+      "Chất âm thiên về game hơn nghe nhạc"
+    ],
+    "promotions": [
+      "Giảm 10% khi thanh toán online",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "headset-004",
+    "slug": "moondrop-para",
+    "brand": "Moondrop",
+    "name": "Moondrop Para",
+    "category": "headset",
+    "price": 3290000,
+    "compareAtPrice": 3590000,
+    "rating": 4.7,
+    "reviewCount": 92,
+    "badge": "NEW",
+    "featured": false,
+    "image": "images/headset/moondrop-para.webp",
+    "shortDescription": "Tai nghe open-back planar magnetic cho âm thanh chi tiết.",
+    "description": "Moondrop Para là tai nghe open-back dùng driver planar magnetic 75mm, cho âm thanh chi tiết và âm trường rộng đặc trưng của dòng planar. Khung kim loại chắc chắn, dây tháo rời nên dễ nâng cấp, phù hợp cả nghe nhạc lẫn chơi game cần định vị tốt. Lưu ý sản phẩm không có microphone nên cần dùng mic rời khi chơi game.",
+    "warranty": "12 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Casual Gaming"],
+    "specifications": {
+      "weight": "540g",
+      "driver": "75mm Planar Magnetic",
+      "microphone": "Không",
+      "connection": "3.5mm / 4.4mm có dây",
+      "battery": "Không",
+      "size": "210 x 195 x 100mm",
+      "compatibility": "PC, Mac, thiết bị có DAC"
+    },
+    "pros": [
+      "Âm thanh chi tiết, âm trường rộng",
+      "Driver planar 75mm",
+      "Dây tháo rời, dễ nâng cấp"
+    ],
+    "cons": ["Không có microphone", "Hơi nặng và cần nguồn kéo tốt"],
+    "promotions": [
+      "Tặng túi chống sốc",
+      "Tặng dây cáp dự phòng",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "headset-005",
+    "slug": "razer-blackshark-v2-pro",
+    "brand": "Razer",
+    "name": "Razer BlackShark V2 Pro",
+    "category": "headset",
+    "price": 3490000,
+    "compareAtPrice": 3890000,
+    "rating": 4.6,
+    "reviewCount": 246,
+    "badge": "",
+    "featured": false,
+    "image": "images/headset/razer-blackshark-v2-pro.webp",
+    "shortDescription": "Tai nghe không dây pin 70 giờ, mic khử ồn.",
+    "description": "BlackShark V2 Pro là tai nghe không dây hướng tới esports với driver TriForce Titanium 50mm và micro HyperClear Super Wideband tháo rời. Pin dùng tới 70 giờ ở chế độ 2.4GHz, đệm tai bọc vải thoáng, kèm cả Bluetooth cho thiết bị di động. Phù hợp cho game thủ FPS và streamer cần micro rõ tiếng.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Esports", "Streaming"],
+    "specifications": {
+      "weight": "320g",
+      "driver": "50mm TriForce Titanium",
+      "microphone": "Có",
+      "connection": "Wireless 2.4GHz / Bluetooth",
+      "battery": "70 giờ",
+      "size": "200 x 185 x 95mm",
+      "compatibility": "PC, Mac, PS5, Switch"
+    },
+    "pros": [
+      "Pin 70 giờ rất lâu",
+      "Microphone khử ồn rõ tiếng",
+      "Đeo êm và thoáng"
+    ],
+    "cons": ["Giá cao", "Không có đèn RGB"],
+    "promotions": [
+      "Tặng earpad dự phòng",
+      "Bảo hành 1 đổi 1 trong 30 ngày",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
+    "id": "headset-006",
+    "slug": "sennheiser-game-one",
+    "brand": "Sennheiser",
+    "name": "Sennheiser Game One",
+    "category": "headset",
+    "price": 2190000,
+    "compareAtPrice": 2490000,
+    "rating": 4.5,
+    "reviewCount": 128,
+    "badge": "",
+    "featured": false,
+    "image": "images/headset/sennheiser-game-one.webp",
+    "shortDescription": "Tai nghe open acoustic có dây, mic boom rõ tiếng.",
+    "description": "Sennheiser Game One là tai nghe open acoustic có dây với driver 40mm tái tạo âm chi tiết và âm trường rộng. Microphone boom khử ồn có thể tắt nhanh bằng cách vuốt cần mic lên, dây chống rối dài 3m. Phù hợp cho người chơi game muốn nghe rõ không gian mà vẫn cần mic đàm thoại.",
+    "warranty": "24 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Casual Gaming", "Work & Play"],
+    "specifications": {
+      "weight": "312g",
+      "driver": "40mm Sennheiser",
+      "microphone": "Có",
+      "connection": "3.5mm có dây",
+      "battery": "Không",
+      "size": "200 x 180 x 90mm",
+      "compatibility": "PC, Mac, PS4, Xbox"
+    },
+    "pros": [
+      "Thiết kế open acoustic thoáng tai",
+      "Mic boom to, rõ tiếng",
+      "Dây dài chống rối"
+    ],
+    "cons": ["Có dây nên vướng khi di chuyển", "Ngoại hình khá đơn giản"],
+    "promotions": [
+      "Miễn phí vận chuyển toàn quốc",
+      "Giảm 10% khi thanh toán online"
+    ]
+  },
+  {
+    "id": "headset-007",
+    "slug": "steelseries-arctis-nova-5",
+    "brand": "SteelSeries",
+    "name": "SteelSeries Arctis Nova 5",
+    "category": "headset",
+    "price": 2790000,
+    "compareAtPrice": 3190000,
+    "rating": 4.6,
+    "reviewCount": 274,
+    "badge": "",
+    "featured": false,
+    "image": "images/headset/steelseries-arctis-nova-5.webp",
+    "shortDescription": "Tai nghe không dây pin 60 giờ, 2.4GHz + Bluetooth.",
+    "description": "Arctis Nova 5 dùng driver 40mm Neodymium, kết nối đồng thời 2.4GHz và Bluetooth để vừa chơi game vừa nghe điện thoại, pin tới 60 giờ. Micro ClearCast Gen 2 tháo rời và đệm tai vải AirWeave thoáng khí, kèm nhiều preset âm thanh chỉnh qua ứng dụng điện thoại. Phù hợp cho game thủ chơi đa nền tảng.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Casual Gaming", "Streaming", "Work & Play"],
+    "specifications": {
+      "weight": "265g",
+      "driver": "40mm Neodymium",
+      "microphone": "Có",
+      "connection": "Wireless 2.4GHz / Bluetooth",
+      "battery": "60 giờ",
+      "size": "195 x 180 x 90mm",
+      "compatibility": "PC, Mac, PS5, Switch, Android"
+    },
+    "pros": [
+      "Kết nối 2.4GHz và Bluetooth cùng lúc",
+      "Pin 60 giờ",
+      "Đeo nhẹ và thoáng"
+    ],
+    "cons": [
+      "Không hỗ trợ Xbox không dây",
+      "Không có đèn RGB"
+    ],
+    "promotions": [
+      "Tặng túi chống sốc",
+      "Miễn phí vận chuyển toàn quốc",
+      "Trả góp 0% qua thẻ tín dụng"
+    ]
+  },
+  {
+    "id": "accessory-001",
+    "slug": "artisan-ninja-fx-zero",
+    "brand": "Artisan",
+    "name": "Artisan Ninja FX Zero",
+    "category": "accessory",
+    "price": 1190000,
+    "compareAtPrice": 1390000,
+    "rating": 4.9,
+    "reviewCount": 156,
+    "badge": "NEW",
+    "featured": false,
+    "image": "images/accessory/artisan-ninja-fx-zero.webp",
+    "shortDescription": "Pad chuột vải cao cấp với viền khâu chống tưa.",
+    "description": "Artisan Ninja FX Zero là pad chuột vải cao cấp của Artisan với bề mặt dệt mịn cho độ kiểm soát tốt và độ bền cao. Viền khâu chống tưa giúp pad giữ form sau thời gian dài sử dụng, đế cao su bám chắc trên mọi mặt bàn. Phù hợp cho game thủ FPS cần một mặt pad ổn định, ít thay đổi cảm giác di chuột.",
+    "warranty": "12 Tháng",
+    "connection": "Wired",
+    "useCases": ["FPS", "Competitive Gaming"],
+    "specifications": {
+      "weight": "400g",
+      "surface": "Cloth",
+      "dimensions": "420 x 330 x 4mm"
+    },
+    "pros": [
+      "Bề mặt kiểm soát tốt",
+      "Viền khâu chống tưa bền bỉ",
+      "Đế cao su bám chắc"
+    ],
+    "cons": [
+      "Giá cao so với pad thông thường",
+      "Vải dễ bám bụi, cần vệ sinh định kỳ"
+    ],
+    "promotions": ["Tặng túi chống sốc", "Miễn phí vận chuyển toàn quốc"]
+  }
+]
