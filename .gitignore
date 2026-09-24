@@ -1,0 +1,18 @@
+# Python cache (tools/convert_images.py, tools/verify.py)
+tools/__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Contextia session logs
+.contextia/
+
+# Local code index/cache
+.codegraph/
+.github/
