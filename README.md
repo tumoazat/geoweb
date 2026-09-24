@@ -91,7 +91,7 @@ Site là static thuần — không framework, không build step, không dependen
 
 ### URL của site
 
-Host cố định là `https://geoweb.vercel.app/`. Giá trị này xuất hiện ở `canonical`, `og:url`, JSON-LD (`@id`, `url`) trên các trang HTML, ở dòng `Sitemap:` trong `robots.txt` và ở mọi thẻ `<loc>` trong `sitemap.xml`.
+Host cố định là `https://geoweb-minhtu.vercel.app/`. Giá trị này xuất hiện ở `canonical`, `og:url`, JSON-LD (`@id`, `url`) trên các trang HTML, ở dòng `Sitemap:` trong `robots.txt` và ở mọi thẻ `<loc>` trong `sitemap.xml`.
 
 Nếu đổi sang domain riêng, chạy một lần trong PowerShell tại thư mục gốc:
 

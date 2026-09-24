@@ -1,6 +1,6 @@
 # ============================================================
 # robots.txt — GEARZONE
-# https://geoweb.vercel.app/
+# https://geoweb-minhtu.vercel.app/
 # ------------------------------------------------------------
 # File này cho crawler biết (các) đường dẫn nào được phép thu thập.
 # Toàn bộ site là nội dung công khai: trang tĩnh HTML/CSS/JS, không có
@@ -71,4 +71,4 @@ Disallow:
 # Sitemap
 # ------------------------------------------------------------
 
-Sitemap: https://geoweb.vercel.app/sitemap.xml
+Sitemap: https://geoweb-minhtu.vercel.app/sitemap.xml

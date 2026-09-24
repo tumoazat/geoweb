@@ -23,7 +23,7 @@ DEST_DIR = os.path.join(ROOT, "images", "home")
 PAGES = ["index.html"]
 URL_RE = re.compile(r"https://lh3\.googleusercontent\.com/[^\"'\s>]+")
 EXT_BY_TYPE = {"image/jpeg": "jpg", "image/png": "png", "image/webp": "webp", "image/gif": "gif"}
-SITE = "https://geoweb.vercel.app"
+SITE = "https://geoweb-minhtu.vercel.app"
 
 
 def read(path: str) -> str:

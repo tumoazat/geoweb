@@ -1,3 +1,3 @@
 Ảnh tải từ Google Stitch (lh3.googleusercontent.com) — không sửa tay.
 Chạy lại: python tools/fetch_home_images.py
-og:image nên trỏ tới ảnh lớn nhất: https://geoweb.vercel.app/images/home/asset-01.jpg
+og:image nên trỏ tới ảnh lớn nhất: https://geoweb-minhtu.vercel.app/images/home/asset-01.jpg
