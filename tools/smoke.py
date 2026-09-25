@@ -283,6 +283,20 @@ def check_cart_and_wishlist(page: Page) -> None:
     page.keyboard.press("Escape")
     page.wait_for_timeout(400)
 
+    page.goto(f"{BASE}/thanhtoan.html", wait_until="networkidle")
+    page.wait_for_timeout(600)
+    count = page.locator("#checkout-item-count").inner_text().strip()
+    subtotal = page.locator("#checkout-subtotal").inner_text().strip()
+    if count == "1 sản phẩm" and subtotal not in ("", "0đ"):
+        ok("checkout page renders the stored cart")
+    else:
+        bad("checkout page renders the stored cart", f"count={count!r} subtotal={subtotal!r}")
+
+    if page.locator("#checkout-submit").is_enabled():
+        ok("checkout confirm is enabled when the cart has lines")
+    else:
+        bad("checkout confirm is enabled", "button disabled with 1 line in the cart")
+
 
 def check_mobile_sheet(browser) -> None:
     ctx = browser.new_context(viewport=MOBILE, has_touch=True, is_mobile=True)

@@ -559,6 +559,17 @@ ${keys.length ? `<dl class="qv-specs">${specRows}</dl>` : ''}${promos.length ? `
       const drawer = $('#cart-drawer');
       if (drawer && !drawer.contains(e.target)) closeCart();
     });
+    /* Cart and wishlist live in localStorage, so another tab can change them under us:
+       storage fires in every document except the writer. pageshow(persisted) covers the
+       back button after checkout — dat-hang-thanh-cong.html empties the cart. */
+    const resync = () => {
+      loadStores();
+      updateBadges();
+      renderCart();
+      if (page() === 'checkout') renderCheckoutSummary();
+    };
+    window.addEventListener('storage', (e) => { if (e.key === LS.cart || e.key === LS.wishlist) resync(); });
+    window.addEventListener('pageshow', (e) => { if (e.persisted) resync(); });
   }
   function openCart() {
     const drawer = $('#cart-drawer'), toggle = $('#cart-toggle');
