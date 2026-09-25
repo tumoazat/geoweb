@@ -4,13 +4,13 @@
 
 ## Giới thiệu
 
-**GEARZONE** là website tĩnh giới thiệu và so sánh gaming gear: chuột, bàn phím, tai nghe và phụ kiện. Site trưng bày **25 sản phẩm thuộc 17 thương hiệu**, mỗi sản phẩm có thông số kỹ thuật, giá bằng VND và điểm đánh giá. Người dùng có thể tìm kiếm không phân biệt dấu, lọc theo nhiều tiêu chí, sắp xếp, đặt cạnh nhau tối đa 4 sản phẩm để so sánh thông số, lưu wishlist và thêm vào giỏ hàng demo (lưu bằng `localStorage`). Ngoài phần mua sắm, site còn có thư viện cẩm nang (blog) và trang FAQ giải đáp các câu hỏi thường gặp về gear. Toàn bộ nội dung phục vụ mục tiêu SEO và GEO (tối ưu cho cả công cụ tìm kiếm truyền thống lẫn các trợ lý AI).
+**GEARZONE** là website tĩnh giới thiệu và so sánh gaming gear: chuột, bàn phím, tai nghe và phụ kiện. Site trưng bày **28 sản phẩm thuộc 17 thương hiệu**, mỗi sản phẩm có thông số kỹ thuật, giá bằng VND và điểm đánh giá. Người dùng có thể tìm kiếm không phân biệt dấu, lọc theo nhiều tiêu chí, sắp xếp, đặt cạnh nhau tối đa 4 sản phẩm để so sánh thông số, lưu wishlist và thêm vào giỏ hàng demo (lưu bằng `localStorage`). Ngoài phần mua sắm, site còn có thư viện cẩm nang (blog) và trang FAQ giải đáp các câu hỏi thường gặp về gear. Toàn bộ nội dung phục vụ mục tiêu SEO và GEO (tối ưu cho cả công cụ tìm kiếm truyền thống lẫn các trợ lý AI).
 
 Site là **demo**, không có backend và không có thanh toán thật — xem mục [Giấy phép / Lưu ý](#giấy-phép--lưu-ý).
 
 ## Tính năng
 
-- **25 sản phẩm nạp từ JSON** — toàn bộ dữ liệu nằm trong `data/products.json`, không hard-code trong HTML.
+- **28 sản phẩm nạp từ JSON** — toàn bộ dữ liệu nằm trong `data/products.json`, không hard-code trong HTML.
 - **Hover quick-view popup** — xem nhanh thông số khi hover trên desktop; trên mobile hiển thị dạng **bottom sheet**.
 - **Search không phân biệt dấu** — gõ `chuot` vẫn ra `chuột`, gõ `tai nghe` vẫn khớp `tai nghe`.
 - **Filter đa tiêu chí** — theo danh mục, thương hiệu, kiểu kết nối, nhu cầu sử dụng và khoảng giá.
@@ -37,7 +37,7 @@ Không framework. Không build step. Không backend. Không database. Mở file 
 ```text
 geoweb/
 ├── data/
-│   └── products.json           # 25 sản phẩm, 17 thương hiệu
+│   └── products.json           # 28 sản phẩm, 17 thương hiệu
 ├── images/
 │   ├── accessory/              # 1 ảnh WebP
 │   ├── headset/                # 7 ảnh WebP

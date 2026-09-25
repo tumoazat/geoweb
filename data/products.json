@@ -328,6 +328,47 @@
     ]
   },
   {
+    "id": "mouse-009",
+    "slug": "zowie-u2-dw-wireless",
+    "brand": "ZOWIE BenQ",
+    "name": "ZOWIE U2-DW Wireless",
+    "category": "mouse",
+    "price": 3990000,
+    "compareAtPrice": 4490000,
+    "rating": 4.9,
+    "reviewCount": 67,
+    "badge": "NEW",
+    "featured": false,
+    "image": "images/home/asset-09.jpg",
+    "shortDescription": "Chuột eSports không dây 60g, form claw/fingertip, kèm trạm sạc chống nhiễu.",
+    "description": "U2-DW dùng cảm biến PixArt 3395 chuẩn eSports trong thân máy 60g, form cầm cong vuốt hai bên giúp flick và tracking ổn định. Máy đi kèm trạm sạc Enhanced Receiver chống nhiễu sóng, hướng tới game thủ FPS thi đấu.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Esports", "Competitive Gaming"],
+    "specifications": {
+      "weight": "60g",
+      "sensor": "PixArt 3395",
+      "switches": "Huano Black Shell Blue Dot",
+      "connection": "Wireless 2.4GHz",
+      "charging": "Enhanced Receiver",
+      "shape": "Symmetrical Claw/Fingertip",
+      "compatibility": "PC, Mac"
+    },
+    "pros": [
+      "Form claw/fingertip ổn định khi flick",
+      "Không dây 2.4GHz độ trễ thấp",
+      "Kèm trạm sạc Enhanced Receiver chống nhiễu"
+    ],
+    "cons": [
+      "Chỉ kết nối 2.4GHz, không có Bluetooth",
+      "Giá cao hơn nhóm chuột không dây phổ thông"
+    ],
+    "promotions": [
+      "Miễn phí cân chỉnh form tay tại showroom",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
     "id": "accessory-002",
     "slug": "razer-gigantus-v3",
     "brand": "Razer",
@@ -685,6 +726,47 @@
     ]
   },
   {
+    "id": "keyboard-009",
+    "slug": "keychron-k2-v2-wireless",
+    "brand": "Keychron",
+    "name": "Keychron K2 V2 Wireless",
+    "category": "keyboard",
+    "price": 1890000,
+    "compareAtPrice": 2200000,
+    "rating": 4.8,
+    "reviewCount": 289,
+    "badge": "POPULAR",
+    "featured": false,
+    "image": "images/home/asset-11.jpg",
+    "shortDescription": "Bàn phím cơ 75% không dây cho Mac/Windows, pin 4000mAh.",
+    "description": "K2 V2 là bàn phím cơ layout 75% (84 phím) chạy được cả macOS lẫn Windows, kết nối Bluetooth 5.1 hoặc USB-C có dây. Pin 4000mAh dùng được nhiều tuần, keycap ABS Double-Shot và khung nhôm anodized xám tối. Phù hợp người cần bàn phím gọn cho bàn làm việc.",
+    "warranty": "12 Tháng",
+    "connection": "Wireless",
+    "useCases": ["Work & Play", "Casual Gaming"],
+    "specifications": {
+      "layout": "75% - 84 phím",
+      "switchType": "Gateron G Pro",
+      "connection": "Bluetooth 5.1 / USB-C",
+      "battery": "4000mAh (tới 240 giờ)",
+      "keycap": "ABS Double-Shot",
+      "case": "Nhôm Anodized xám tối",
+      "compatibility": "PC, Mac, Android, iOS"
+    },
+    "pros": [
+      "Dùng tốt cho cả Mac và Windows",
+      "Pin 4000mAh, dùng nhiều tuần",
+      "Khung nhôm anodized chắc chắn"
+    ],
+    "cons": [
+      "Keycap ABS dễ bóng dầu",
+      "Chỉ có Bluetooth 5.1, không có kết nối 2.4GHz"
+    ],
+    "promotions": [
+      "Tặng kê tay gỗ óc chó",
+      "Miễn phí vận chuyển toàn quốc"
+    ]
+  },
+  {
     "id": "headset-001",
     "slug": "asus-rog-delta-s",
     "brand": "ASUS",
@@ -958,6 +1040,47 @@
       "Tặng túi chống sốc",
       "Miễn phí vận chuyển toàn quốc",
       "Trả góp 0% qua thẻ tín dụng"
+    ]
+  },
+  {
+    "id": "headset-008",
+    "slug": "logitech-g-pro-x-2-lightspeed",
+    "brand": "Logitech",
+    "name": "Logitech G Pro X 2 LIGHTSPEED",
+    "category": "headset",
+    "price": 6290000,
+    "compareAtPrice": 6990000,
+    "rating": 5,
+    "reviewCount": 73,
+    "badge": "GRAPHENE 50MM",
+    "featured": false,
+    "image": "images/home/asset-27.jpg",
+    "shortDescription": "Tai nghe không dây màng loa Graphene 50mm, pin 50 giờ.",
+    "description": "G Pro X 2 dùng màng loa Graphene 50mm cho âm thanh chi tiết và giảm méo tiếng, kết hợp ba chế độ kết nối LIGHTSPEED 2.4GHz, Bluetooth và dây 3.5mm. Pin tới 50 giờ, khung nhôm và thép cùng bản lề xoay 90 độ, kèm cả đệm da lẫn đệm vải velour.",
+    "warranty": "24 Tháng",
+    "connection": "Wireless",
+    "useCases": ["FPS", "Streaming", "Casual Gaming"],
+    "specifications": {
+      "driver": "PRO-G Graphene 50mm",
+      "microphone": "Có",
+      "connection": "LIGHTSPEED 2.4GHz / Bluetooth / 3.5mm",
+      "battery": "50 giờ",
+      "frame": "Nhôm và thép",
+      "earpads": "Da và vải velour",
+      "compatibility": "PC, PS5, Nintendo Switch"
+    },
+    "pros": [
+      "Màng loa Graphene 50mm chi tiết, ít méo tiếng",
+      "Pin 50 giờ, ba chế độ kết nối",
+      "Khung nhôm thép chắc chắn, kèm hai loại đệm tai"
+    ],
+    "cons": [
+      "Giá cao",
+      "Nặng hơn bản có dây"
+    ],
+    "promotions": [
+      "Tặng giá đỡ tai nghe Logitech G",
+      "Miễn phí vận chuyển toàn quốc"
     ]
   },
   {
